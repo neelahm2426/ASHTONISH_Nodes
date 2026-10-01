@@ -13,4 +13,4 @@ A06_Ash_Image_Metadata: true
 A07_Ash_Batch_Processor: true
 A08_Ash_Workflow: true
 A09_Ash_Utilities: true
-A10_Ash_Image_Watermark: true
+A10_Ash_Image_Watermark: false
