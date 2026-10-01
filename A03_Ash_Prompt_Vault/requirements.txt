@@ -1,0 +1,26 @@
+# ==============================================================================
+# Name of software: Ash Super Prompt DB
+# Coding language: Text
+# Infrastructure: ComfyUI Custom Node Bootstrap
+# Application: comfyUI
+# Code file/component name: requirements.txt
+# Organization: Ashok Mamtora
+# Timestamp: Day 09-Jun-2026 18:20:00
+# Version: 100.01.00
+# Logic Summary:
+#   • xxhash is an extremely fast non-cryptographic hash algorithm. It is designed to take an input 
+#	(like a string, a file, or a block of data) and instantly turn it into a fixed-length numerical signature (a hash).
+#   • Data Integrity and File Verification - It creates a signature of the system prompt and image file for fingerprinting and comparison
+#     (Using headless prevents Qt/GUI crashes on headless server environments).
+#   • Lightning-Fast Caching and Deduplication
+#   • This ensures that system prompt is not duplicated
+# Line Count Tracking: Total 18 | Code 2
+# ==============================================================================
+
+xxhash>=3.0.0
+
+# ==============================================================================
+# Version: 100.01.00 | Timestamp: Day 09-Jun-2026 18:20:00
+# Total Lines: 18 | Code Lines: 2
+# Revision Statement: Initial requirements file for DCT and QR dependencies.
+# ==============================================================================

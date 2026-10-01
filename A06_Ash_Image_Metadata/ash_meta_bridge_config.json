@@ -1,0 +1,12 @@
+{
+    "version": "1.0.0",
+	"_Date":"16-May-2026",
+    "_comment": "Timer module path config for AshMetadataBridge. Edit timer_module_paths if you rename the timer folder or use a different timer node.",
+    "timer_module_paths": [
+        "custom_nodes.Ash_Node_7_WorkflowTimer.ash_workflow_timer",
+        "custom_nodes.Ash_Workflow_Timer.ash_workflow_timer",
+        "custom_nodes.ash_workflow_timer"
+    ],
+    "timer_api_function": "GET_EXECUTION_TIME",
+    "timer_marker_string": "⏱️[ASH_TIMER_ACTIVE]"
+}

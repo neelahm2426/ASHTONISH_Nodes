@@ -1,0 +1,98 @@
+{
+  "info": {
+    "version": "0.11",
+    "last_updated": "24-Jun-2026 17:53",
+    "Node": "Ash_Super_Prompt, Ash_Simple_Prompt, Ash_Sequencer",
+    "Total_categories": 8,
+    "Total_Templates": 76,
+    "library_ops_log": [
+      "Injected 5 new prompt strings into library category 'creative_poster_and_graphics'",
+      "Injected 5 new prompt strings into library category 'infographic_and_layout_templates'"
+    ]
+  },
+  "Ashok": [
+    "A painting of __artist__ on the wall of cathedral watched by a group of people"
+  ],
+  "creative_poster_and_graphics": [
+    "% Avant-garde editorial cover, __composition_planning__, prominent __title_placement__, displaying a fusion of __subject__ and __graphic_elements__, executed in __poster_style__, high-end vector art rendering style %",
+    "% High-impact commercial graphic design poster, __composition_planning__, __title_placement__, text reads clearly with crisp rendering, utilizing __typography_weight__, stylized with __poster_style__, textured by __graphic_elements__, professional print layout %",
+    "% Minimalist advertisement layout, __poster_style__, featuring a sleek __robot__ positioned off-center, __title_placement__, high contrast, __color_palette_poster__, clean vector background elements, ultra-sharp edge definition %",
+    "% Structured informational poster, __infographic_data_types__, using __composition_planning__ structure, clean __typography_weight__ headers, high-fidelity data icons using __graphic_elements__, coordinated in a __color_palette_poster__, balanced layout with distinct header and footer zones %",
+    "% __poster_style__, __composition_planning__, featuring a central subject of __subject__, with __title_placement__ utilizing __typography_weight__, color scheme driven by __color_palette_poster__, __graphic_elements__ details, super clean layout, crisp details, 8k resolution %"
+  ],
+  "cyber_and_work": [
+    "% A __global_ethnicity__ HVAC technician fixing a server cooling system, __work_equipment__ in hand, __tech_lighting__, __cyber_mood__, 8k raw photo %",
+    "% A __global_ethnicity__ __work_trades__ __subject_action__ in a __work_environments__, surrounded by __digital_overlay__, __tech_lighting__, cinematic lighting, ({__image_size_bg__}:1.2) %",
+    "% A __global_ethnicity__ woman __subject_action__ near an __industrial_energy__ plant, __cyber_context__, wearing __sfw_attire__, cinematic __cyber_mood__ %",
+    "% A __work_trades__ standing before the __landmarks__, holding a __work_equipment__, __sfw_attire__, __subject_quality__, realistic perspective %",
+    "% A wide shot of a __work_environments__ at __locations__, __subject_action__ with __work_equipment__, __cyber_mood__ atmosphere, ({__size_bg__}:1.3) %",
+    "% Action shot of a technician securing a __industrial_energy__ facility, __cyber_context__, __tech_lighting__, wearing __cyber_apparel__, {rainy|windy} weather %",
+    "% Professional portrait of a __work_trades__ wearing __sfw_attire__, holding __work_equipment__, __work_environments__ background, __mood__ mood, 8k resolution %",
+    "% Professional portrait of a __work_trades__, __sfw_attire__, __work_environments__ background, __mood__ lighting, realistic skin texture %",
+    "% Wide shot of a __industrial_energy__ plant at night, a __work_trades__ __subject_action__ in the foreground, __cyber_mood__, ({__size_bg__}:1.3) %",
+    "% Wide shot of a __work_environments__ in __country__, __subject_action__, __work_equipment__ everywhere, __mood__ atmosphere, ({__size_bg__}:1.3) %",
+    "% __bollywood_actors__ as a high-stakes __work_trades__ in a __work_environments__, __digital_overlay__ flickering, __tech_lighting__, 8k resolution, ({__size_bg__}:1.2) %",
+    "% __bollywood_actors__ as a lead __work_trades__ in a __work_environments__, __digital_overlay__ displaying __digital_overlay__, __tech_lighting__, ({__size_bg__}:1.2) %",
+    "% __global_ethnicity__ engineer analyzing __chemicals_science__ in a __work_environments__, __digital_overlay__ reflecting on glass, __lighting__ %",
+    "% __work_trades__ analyzing data on a __musical_instruments__-shaped holographic interface, __work_environments__, __digital_overlay__, __tech_lighting__ %",
+    "% __work_trades__ in __country__ holding a tablet with a __canada_symbols__ sticker, __work_environments__, __digital_overlay__, __subject_quality__ %"
+  ],
+  "infographic_and_layout_templates": [
+    "Commercial infographic roadmap, __poster_sizes_ratios__, execution based on __regional_layout_division__. Central visualization layer shows a __data_visualization_types__ bounded by an __grid_system_alignment__. Visual elements use __color_palette_strict__, text elements positioned at the __positional_anchoring__ using __text_style_constraints__ with crisp readability, high contrast, flat style.",
+    "Corporate analysis presentation page, white background, __layout_style_accents__. Organized with a __grid_system_alignment__ divided into distinct regions via __regional_layout_division__. The focal zone contains a __data_visualization_types__ anchored at the __positional_anchoring__. Clear text labels read \"DATA-01\" and \"DATA-02\" wrapped in strict __size_hierarchy_weight__, utilizing __text_style_constraints__, __poster_sizes_ratios__.",
+    "Data visualization poster, __color_palette_strict__, __poster_sizes_ratios__. Structured via __regional_layout_division__. Features a prominent __data_visualization_types__ positioned at the __positional_anchoring__. Titles are rendered in \"HEADING\" format using __text_style_constraints__ with balanced __size_hierarchy_weight__. Styled with __layout_style_accents__, zero overlapping artifacts, clean vector finish.",
+    "High-impact marketing poster, __layout_style_accents__, matching a __poster_sizes_ratios__. Symmetrical composition arranged as __regional_layout_division__, emphasizing a central __subject__ surrounded by a __grid_system_alignment__. Key text reads \"LAUNCH\" at the __positional_anchoring__, using __text_style_constraints__ driven by __size_hierarchy_weight__ and a __color_palette_strict__.",
+    "Professional infographic design, __color_palette_strict__, __layout_style_accents__. A large prominent title reading \"REPORT\" displayed at the __positional_anchoring__. Below, an __grid_system_alignment__ managing a __data_visualization_types__, formatted using __regional_layout_division__. Individual text components use __text_style_constraints__ with strict __size_hierarchy_weight__. Clean lines, ample white space, __poster_sizes_ratios__."
+  ],
+  "nature_transport_sports": [
+    "% A __cars__ driving through __locations__ during __festivals__, __colors__ and __lighting__, __texture__ reflections, 8k %",
+    "% A __cars__ parked on the __beaches__ at sunset, __canada_symbols__ flag nearby, __lighting__, photorealistic %",
+    "% A __cars__ parked outside a __religious_places__ in __locations__, __lighting__, __texture__ finish, 8k raw photo %",
+    "% A __heavy_transport__ crossing a __rivers__ with __natural_wonders__ in the background, __mood__, cinematic wide shot %",
+    "% A __heavy_transport__ flying over a __religious_places__ surrounded by __plants__, __colors__, __subject_quality__ %",
+    "% A __heavy_transport__ moving through __mountains__ covered in __wild_flowers__, __seasons__, __mood__, cinematic wide shot %",
+    "% A __heavy_transport__ passing through __mountains__ during __seasons__, __mood__ atmosphere, cinematic wide shot, ({__size_bg__}:1.4) %",
+    "% A field of __flowers__ stretching toward the __natural_wonders__, __moon__ above, __mood__ lighting, ({__size_bg__}:1.4) %",
+    "% A surreal __mood__ painting of a __heavy_transport__ flying over __beaches__, style of __artist_style__, __colors__ palette %",
+    "% Celebration of __festivals__ in __locations__, crowds, __colors__, __lighting__, {wide shot|drone view}, __subject_quality__ %",
+    "% __global_ethnicity__ athlete at a __arenas__ during a __sports__ match, __flags__ waving, __mood__, __subject_quality__ %",
+    "% __global_ethnicity__ woman playing __musical_instruments__ on a __beaches__, __mountains__ in the distance, __seasons__, __subject_quality__ %",
+    "% __global_ethnicity__ woman walking through a __plants__ garden at a __religious_places__, wearing __dress_style__, __mood__, __subject_quality__ %",
+    "% __natural_wonders__ at __country__, __mood__ lighting, __camera_angle__, {Wide|UltraWide}, __subject_quality__ %",
+    "% __subject__ standing at the __landmarks__ holding the __flags__, __subject_quality__, __lighting__, historic feel %"
+  ],
+  "nsfw_uncensored": [
+    "% A __mood__ erotic shot, __global_ethnicity__ woman, __naked_bundle__, __nsfw_tags__, __flowers__ petals on skin, {__image_size_bg__|__image_size_blog__} %",
+    "% A __mood__ erotic shot, __subject__, __body_type__, __naked_bundle__, __nsfw_tags__, texture of __texture__, {__image_size_bg__|__image_size_blog__} %",
+    "% A beautiful __global_ethnicity__ woman, __body_type__, __naked_bundle__, __nsfw_tags__, __privacy_level__, {__mood__|__cyber_mood__} lighting, __subject_quality__ %",
+    "% A portrait of __subject__, __face_shapes__, __facial_features__, __naked_bundle__, __nsfw_tags__, elegant and intricate, realistic %",
+    "% Cinematic __mood__ shot of a woman, __body_type__, __naked_bundle__, __nsfw_tags__, __texture__ skin, __lighting__, ({__image_size__}:1.2) %",
+    "% Portrait of __subject__, __face_shapes__, __facial_features__, __naked_bundle__, __nsfw_tags__, __mood__ lighting, ultradetailed %",
+    "% Portrait of __subject__, __face_shapes__, __facial_features__, __naked_bundle__, __nsfw_tags__, cinematic __lighting__, sharp focus %",
+    "% __bollywood_actresses__, __body_type__, __naked_bundle__, __nsfw_tags__, laying on a bed of __flowers__, __botanical_detail__, __lighting__, 8k resolution %",
+    "% __bollywood_actresses__, __body_type__, {__naked_bundle__|__privacy_level__}, __nsfw_tags__, __lighting__, inside a __work_environments__, high detail %",
+    "% __global_ethnicity__ woman in a __work_environments__, {__naked_bundle__|__privacy_level__}, __subject_action__, __tech_lighting__, venture into uncensored territory %",
+    "% __nsfw_tags__ photo of __bollywood_actresses__ in a __surreal dreamscape__, __naked_bundle__, __colors__ lighting, venture into uncensored territory %",
+    "% __nsfw_tags__ photo of __bollywood_actresses__ in a __work_environments__, __naked_bundle__, __tech_lighting__, venture into uncensored territory %",
+    "% __subject_quality__ of a __global_ethnicity__ woman, __body_type__, __naked_bundle__, __nsfw_tags__, standing by the __rivers__ at night, __moon__ above %",
+    "% __subject_quality__ photo of a woman, __body_type__, {__naked_bundle__|__privacy_level__}, __locations__ background, __seasons__, {front pose|back pose}, __nsfw_tags__ %",
+    "% __subject_quality__ photo of a woman, __body_type__, {__naked_bundle__|__privacy_level__}, __nsfw_tags__, standing by __rivers__ with a __canada_symbols__ flag in background %"
+  ],
+  "sfw_professional_global": [
+    "% A __cars__ with a __canada_symbols__ decal driving through __locations__, __lighting__, __texture__ reflections, ({__size_bg__}:1.2) %",
+    "% A __cars__ with the __flags__ painted on it, parked at a __natural_wonders__, __lighting__, photorealistic, ({__size_bg__}:1.2) %",
+    "% A __work_trades__ standing in front of a __religious_places__, wearing __sfw_attire__, __mood__ mood, {daytime|golden hour}, __camera_angle__ %",
+    "% A cinematic shot of __bollywood_stars__ playing a __musical_instruments__ by the __rivers__, __mood__ lighting, __seasons__ %",
+    "% A cinematic shot of __bollywood_stars__ surrounded by __flowers__, playing a __musical_instruments__, __mood__ lighting, __seasons__ %",
+    "% A group of __work_trades__ in a collaborative __work_environments__, __subject_quality__, __lighting__, realistic documentary style %",
+    "% Portrait of __leaders__ in a __religious_places__, __subject_quality__, __lighting__, peaceful and spiritual atmosphere %",
+    "% Portrait of __leaders__ surrounded by __common_flowers__, __subject_quality__, __lighting__, symbolic and peaceful %",
+    "% Portrait of a __subject__ during __festivals__ at __locations__, wearing __sfw_attire__, __colors__ color theme, __subject_quality__ %",
+    "% __bollywood_actresses__ in a __dress_style__ standing at a __arenas__, __sports__ match in the background, __mood__, 8k raw photo %",
+    "% __bollywood_actresses__ in a __dress_style__ standing near a __natural_wonders__ in __country__, __mood__, 8k raw photo %",
+    "% __bollywood_stars__ celebrating __festivals__ at the __landmarks__, wearing __dress_style__, __colors__ explosion, __bollywood_songs__ atmosphere %",
+    "% __bollywood_stars__ wearing a __dress_style__ with a __canada_symbols__ pin, standing at the __landmarks__, __festivals__ atmosphere, __colors__ %",
+    "% __global_ethnicity__ professional __subject_action__ with __work_equipment__, __work_environments__, __mood__, {16:9|Landscape} %",
+    "% __global_ethnicity__ woman wearing __sfw_attire__, __subject_quality__, __work_environments__, confident expression, __lighting__, photorealistic %"
+  ]
+}

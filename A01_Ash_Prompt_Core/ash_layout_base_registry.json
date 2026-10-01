@@ -1,0 +1,28 @@
+{
+  "info": {
+    "version": "0.04",
+    "last_updated": "24-Jun-2026 17:26",
+    "Node": "Ash_Super_Prompt, Ash_Simple_Prompt, Ash_Sequencer",
+    "Total_categories": 18,
+    "Total_Options": 67,
+    "blueprint_ops_log": [
+      "Injected 3 blueprint choice tokens into target subcategory 'blueprint_product'",
+      "Injected 3 blueprint choice tokens into target subcategory 'blueprint_title'",
+      "Registered new layout storyboard schema entry: 'cyberpunk_ui_hud_blueprint'"
+    ]
+  },
+  "categories": {
+    "annual_data_report_blueprint": 6,
+    "blueprint_custom_fields": 4,
+    "blueprint_product": 3,
+    "blueprint_render_engine": 4,
+    "blueprint_selection_mode": 4,
+    "blueprint_title": 3,
+    "detailed_portrait": 1,
+    "event_summit_poster_blueprint": 6,
+    "product_launch_poster_blueprint": 5,
+    "simple_portrait": 6,
+    "timeline_infographic_blueprint": 5,
+    "cyberpunk_ui_hud_blueprint": 2
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "info": {
+    "version": "0.04",
+    "last_updated": "24-Jun-2026 17:26",
+    "Node": "Ash_Super_Prompt, Ash_Simple_Prompt, Ash_Sequencer",
+    "Total_categories": 18,
+    "Total_Options": 67,
+    "blueprint_ops_log": [
+      "Injected 3 blueprint choice tokens into target subcategory 'blueprint_product'",
+      "Injected 3 blueprint choice tokens into target subcategory 'blueprint_title'",
+      "Registered new layout storyboard schema entry: 'cyberpunk_ui_hud_blueprint'"
+    ]
+  },
+  "annual_data_report_blueprint": {
+    "canvas_meta": {
+      "dimensions": "848x1264",
+      "aspect_ratio": "2:3",
+      "target_medium": "Vertical Print / Corporate Report Page",
+      "style_direction": "Flat design, minimalist business aesthetics, crisp layout borders, ample white space"
+    },
+    "regional_layout": {
+      "division_type": "Multi-tier vertical split",
+      "top_zone_15pct": "Main display title block, center-aligned text",
+      "middle_left_40pct": "Primary data chart frame for data visualization",
+      "middle_right_30pct": "Three-row vertical node list summary",
+      "bottom_zone_15pct": "Small annotation text and data source footnote"
+    },
+    "typography_and_hierarchy": {
+      "font_constraint": "Clean modern sans-serif font, sharp geometric letterforms, single-language lines",
+      "text_length_limit": "Maximum 8 characters per line to guarantee glyph stability",
+      "size_weights": {
+        "title_level": "Large, eye-catching, prominent, bold weight",
+        "body_level": "Medium, clearly readable, regular weight",
+        "annotation_level": "Small, fine print, light gray low-contrast color"
+      }
+    },
+    "elements_and_data": {
+      "title_text": "__blueprint_title__",
+      "left_chart": {
+        "type": "Blue-toned bar chart matrix",
+        "horizontal_axis": "Labeled \"Q1\" \"Q2\" \"Q3\" \"Q4\"",
+        "vertical_axis": "Labeled \"1M\"",
+        "focal_metric": "Value indicator text \"156\" explicitly rendered above active bars"
+      }
+    },
+    "color_palette": {
+      "primary_theme": "Corporate blue-and-white color scheme",
+      "background": "Pure white canvas base"
+    },
+    "negative_prompt": [
+      "text formatting errors",
+      "text overlapping images",
+      "character distortion",
+      "jumbled characters",
+      "text crowding"
+    ]
+  },
+  "cyberpunk_ui_hud_blueprint": {
+    "canvas_meta": {
+      "dimensions": "1376x768",
+      "aspect_ratio": "16:9",
+      "target_medium": "Widescreen HUD Display"
+    },
+    "elements_and_data": {
+      "active_target": "__blueprint_subject__",
+      "hud_warning_text": "CRITICAL__cyber_mood__"
+    }
+  },
+  "detailed_portrait": {
+    "prompt_configuration": {
+      "subject": {
+        "description": "__subject__",
+        "ethnicity": {
+          "weight": 1.3,
+          "options": [
+            "__ethnicity__"
+          ]
+        },
+        "physical_features": {
+          "eyes": "__eyes__",
+          "hair": {
+            "length": "__hair_length__",
+            "style": "__hair_style__"
+          },
+          "skin_tones": [
+            "__skin_tone__"
+          ],
+          "body_silhouette": [
+            "__body_type__"
+          ]
+        }
+      },
+      "attire": {
+        "fabric_type": [
+          "__fabric_type__"
+        ],
+        "color": [
+          "__attire_color__"
+        ],
+        "dress_style": [
+          "__dress_style__"
+        ],
+        "clothing_coverage": {
+          "weight": 1.2,
+          "options": [
+            "__clothing_coverage__"
+          ]
+        }
+      },
+      "composition": {
+        "camera_shot": {
+          "weight": 1.5,
+          "options": [
+            "__camera_shot__"
+          ]
+        },
+        "pose_type": [
+          "__pose_type__"
+        ],
+        "aspect_ratio": {
+          "weight": 1.5,
+          "options": [
+            "__aspect_ratio__"
+          ]
+        }
+      },
+      "environment": {
+        "location": [
+          "__location__"
+        ],
+        "surroundings": "__environment__",
+        "lighting_intent": [
+          "realistic",
+          "perspective"
+        ]
+      },
+      "quality_and_style": {
+        "positive_modifiers": "__ALL:quality_modifiers__",
+        "artistic_directives": "__ALL:artistic_directives__",
+        "technical_constraints": {
+          "focus": "sharp focus on subject",
+          "negative_prompt": "__ALL:negative_anatomy__"
+        }
+      }
+    }
+  },
+  "event_summit_poster_blueprint": {
+    "canvas_meta": {
+      "dimensions": "848x1264",
+      "aspect_ratio": "2:3",
+      "target_medium": "Standard Vertical Exhibition Print Poster",
+      "style_direction": "Modern tech-inspired aesthetic, clean symmetrical centered composition"
+    },
+    "regional_layout": {
+      "division_type": "Layered vertical composition stack",
+      "upper_center_zone": "Main graphical visual subject focal area",
+      "top_header_zone": "Large dominant title text container",
+      "bottom_row_split": "Asymmetric lower grid tracking metadata blocks left and right"
+    },
+    "typography_and_hierarchy": {
+      "font_constraint": "Brutalist high-contrast slab-serif typography with thick clean outer strokes",
+      "size_weights": {
+        "header_level": "Large, eye-catching, prominent, pure white",
+        "sub_header_level": "Medium readable numeric date label",
+        "metadata_level": "Small fine text details positioned at opposite bottom margins"
+      }
+    },
+    "elements_and_data": {
+      "background_layer": "Dark charcoal black background with a subtle geometric grid matrix texture",
+      "hero_subject": "__blueprint_subject__",
+      "main_title": "__blueprint_title__",
+      "date_label": "2026.05",
+      "bottom_left_info": "VENUE",
+      "bottom_right_info": "REGISTER"
+    },
+    "color_palette": {
+      "primary_theme": "Cyberpunk neon palette",
+      "core_tones": "Intense deep purples, vibrant neon blues, stark obsidian backing fields",
+      "text_fill": "Pure luminescent white lettering"
+    },
+    "negative_prompt": [
+      "oversaturated color bleeding",
+      "color distortion disrupting readability",
+      "chaotic asset layout",
+      "cluttered components",
+      "font inconsistency across layers"
+    ]
+  },
+  "product_launch_poster_blueprint": {
+    "canvas_meta": {
+      "dimensions": "768x1376",
+      "aspect_ratio": "9:16",
+      "target_medium": "Mobile Screen Portrait Display Poster",
+      "style_direction": "Swiss international typographic style, minimal luxury brand aesthetic"
+    },
+    "regional_layout": {
+      "division_type": "Symmetrical centered visual alignment, deep margins",
+      "dead_center_zone": "Isolated product hero asset rendering window",
+      "upper_center_zone": "Primary brand announcement header layer",
+      "lower_center_zone": "Auxiliary sub-text product description callout"
+    },
+    "elements_and_data": {
+      "background_layer": "Flawless pure white canvas, massive open white space",
+      "product_asset": "__blueprint_product__",
+      "brand_header": "__blueprint_title__",
+      "tagline_text": "SMART LIFE",
+      "base_release_date": "SALE 06.01"
+    },
+    "color_palette": {
+      "primary_theme": "Premium brand palette",
+      "dominant_color": "Pure clean white backplate",
+      "typography_color": "Deep dark navy blue vector text fills"
+    },
+    "negative_prompt": [
+      "distorted fonts",
+      "double lettering",
+      "multi-language layout mixing on the same line",
+      "cramped layout text",
+      "dirty backgrounds"
+    ]
+  },
+  "simple_portrait": {
+    "subject": "__subject__",
+    "ethnicity": "__ethnicity__",
+    "environment": "__environment__",
+    "lighting": "__lighting__",
+    "camera": "__camera__",
+    "style": "__style__"
+  },
+  "timeline_infographic_blueprint": {
+    "canvas_meta": {
+      "dimensions": "1264x848",
+      "aspect_ratio": "3:2",
+      "target_medium": "Widescreen Horizontal Presentation Layout",
+      "style_direction": "Clean, highly structured timeline tracking, professional corporate finish"
+    },
+    "regional_layout": {
+      "division_type": "Central axis horizontal sequence progression",
+      "horizontal_axis_line": "Runs dead center through the canvas from left to right",
+      "upper_nodes": "Four time milestone markers distributed sequentially above the line",
+      "lower_nodes": "Corresponding description blocks mapped vertically below each node point"
+    },
+    "elements_and_data": {
+      "axis_element": "Solid blue vector baseline divider",
+      "milestones": [
+        "__blueprint_node1__",
+        "__blueprint_node2__",
+        "__blueprint_node3__",
+        "__blueprint_node4__"
+      ],
+      "node_indicators": "Symmetrical vector circular dots tracking on the axis line"
+    },
+    "color_palette": {
+      "primary_theme": "High-contrast clean tech layout",
+      "background": "Clean light gray presentation card surface",
+      "elements": "Deep blue primary details, mid-gray auxiliary labels"
+    },
+    "negative_prompt": [
+      "low contrast typography",
+      "blurred characters",
+      "unaligned columns",
+      "uneven spacing",
+      "low resolution lettering"
+    ]
+  }
+}

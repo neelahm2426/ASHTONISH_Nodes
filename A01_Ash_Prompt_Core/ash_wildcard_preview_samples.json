@@ -1,0 +1,4631 @@
+{
+    "info": {
+        "version": "0.68",
+        "last_updated": "29-Jul-2026 13:07",
+        "Node": "Ash_Super_Prompt, Ash_Simple_Prompt, Ash_Sequencer",
+        "Total_categories": 467,
+        "Total Options within categories": 33050,
+        "transaction_summary": [
+            "[REMAPPED] Consolidated key 'woman_select_eye_color' (5 items) into 'woman_eye_color_select'",
+            "[APPENDED] Added 1 new items to category 'woman_ethnicity_select'",
+            "[APPENDED] Added 5 new items to category 'flower_color_select'"
+        ]
+    },
+    "content": {
+        "3d_term": {
+            "count": 46,
+            "samples": [
+                "2d sprite",
+                "ambient lighting",
+                "ambient occlusion",
+                "anti aliasing",
+                "augmented reality"
+            ]
+        },
+        "actor": {
+            "count": 88,
+            "samples": [
+                "al pacino",
+                "arnold schwarzenegger",
+                "benedict cumberbatch",
+                "brad pitt",
+                "bruce willis"
+            ]
+        },
+        "actress": {
+            "count": 455,
+            "samples": [
+                "abbie cornish",
+                "adrianne palicki",
+                "agam darshi",
+                "aimee garcia",
+                "aishwariya rai"
+            ]
+        },
+        "adj_architecture": {
+            "count": 158,
+            "samples": [
+                "art deco",
+                "art nouveau",
+                "baroque",
+                "baroque architecture",
+                "bauhaus architecture"
+            ]
+        },
+        "adj_beauty": {
+            "count": 86,
+            "samples": [
+                "aesthetic",
+                "aesthetical",
+                "alluring",
+                "appealing",
+                "arresting"
+            ]
+        },
+        "adj_general": {
+            "count": 1339,
+            "samples": [
+                "abandoned",
+                "able",
+                "absolute",
+                "academic",
+                "acceptable"
+            ]
+        },
+        "adj_horror": {
+            "count": 45,
+            "samples": [
+                "alarming",
+                "atrocious",
+                "awful",
+                "daunting",
+                "demoralizing"
+            ]
+        },
+        "alien": {
+            "count": 45,
+            "samples": [
+                "ancients",
+                "andromedan",
+                "angelic being",
+                "annunaki",
+                "ant people"
+            ]
+        },
+        "angel": {
+            "count": 50,
+            "samples": [
+                "angel of death",
+                "angel of destruction",
+                "angel of healing",
+                "angel of light",
+                "angel of love"
+            ]
+        },
+        "animal": {
+            "count": 2077,
+            "samples": [
+                "aardvark",
+                "aardwolf",
+                "abyssinian",
+                "achrioptera manga",
+                "addax"
+            ]
+        },
+        "architecture_style_general": {
+            "count": 46,
+            "samples": [
+                "african architecture",
+                "ancient african",
+                "ancient americas",
+                "ancient arabian",
+                "ancient asian"
+            ]
+        },
+        "architecture_style_specific_civilization": {
+            "count": 148,
+            "samples": [
+                "abbasid architecture",
+                "achaemenid",
+                "aghlabid architecture",
+                "akkadian",
+                "almohad architecture"
+            ]
+        },
+        "arenas": {
+            "count": 5,
+            "samples": [
+                "eden gardens",
+                "madison square garden",
+                "monaco circuit",
+                "olympic stadium",
+                "wembley stadium"
+            ]
+        },
+        "art_medium": {
+            "count": 7,
+            "samples": [
+                "3d voxel art",
+                "charcoal sketch",
+                "claymation",
+                "digital painting",
+                "gouache"
+            ]
+        },
+        "art_style": {
+            "count": 7,
+            "samples": [
+                "art deco",
+                "baroque",
+                "brutalism",
+                "minimalism",
+                "pop art"
+            ]
+        },
+        "artist": {
+            "count": 2254,
+            "samples": [
+                "aaron douglas",
+                "aaron horkey",
+                "aaron jasinski",
+                "aaron siskind",
+                "abbott fuller graves"
+            ]
+        },
+        "artist_anime": {
+            "count": 50,
+            "samples": [
+                "adam hughes",
+                "akira toriyama",
+                "apollonia saintclair",
+                "armin hansen",
+                "awataguchi takamitsu"
+            ]
+        },
+        "artist_black_white": {
+            "count": 33,
+            "samples": [
+                "albert servaes",
+                "alfred eisenstaedt",
+                "alvin langdon coburn",
+                "ando fuchs",
+                "andre kertesz"
+            ]
+        },
+        "artist_botanical": {
+            "count": 30,
+            "samples": [
+                "alexander marshal",
+                "anne pratt",
+                "arthur harry church",
+                "clarissa munger badger",
+                "claude aubriet"
+            ]
+        },
+        "artist_c": {
+            "count": 8,
+            "samples": [
+                "alain laboile",
+                "bapu",
+                "cassius marcellus coolidge",
+                "dr seuss",
+                "henning jakob henrik lund"
+            ]
+        },
+        "artist_cartoon": {
+            "count": 92,
+            "samples": [
+                "abigail larson",
+                "al williamson",
+                "albert robida",
+                "alberto vargas",
+                "alena aenami"
+            ]
+        },
+        "artist_concept": {
+            "count": 64,
+            "samples": [
+                "aaron beck",
+                "alena aenami",
+                "alex ross",
+                "alphonse mucha",
+                "anthony geoffroy"
+            ]
+        },
+        "artist_csv": {
+            "count": 3024,
+            "samples": [
+                "a b jackson",
+                "a j casson",
+                "a r middleton todd",
+                "aaron bohrod",
+                "aaron douglas"
+            ]
+        },
+        "artist_dig1": {
+            "count": 283,
+            "samples": [
+                "adam bruce thomson",
+                "adrienn henczne deak",
+                "ahmed karahisari",
+                "alan moore",
+                "alberto biasi"
+            ]
+        },
+        "artist_dig2": {
+            "count": 246,
+            "samples": [
+                "a b jackson",
+                "aaron bohrod",
+                "aaron siskind",
+                "abdel hadi al gazzar",
+                "abed abdi"
+            ]
+        },
+        "artist_dig3": {
+            "count": 384,
+            "samples": [
+                "abraham mintchine",
+                "adm cooper",
+                "adolf ulric wertmuller",
+                "adolf wolfli",
+                "adrian ghenie"
+            ]
+        },
+        "artist_director": {
+            "count": 20,
+            "samples": [
+                "alejandro jodorowsky",
+                "ang lee",
+                "bong joon ho",
+                "darren aronofsky",
+                "david lynch"
+            ]
+        },
+        "artist_fantasy": {
+            "count": 55,
+            "samples": [
+                "alan lee",
+                "alan rickman",
+                "alexander jansson",
+                "alice x zhang",
+                "andy park"
+            ]
+        },
+        "artist_fareast": {
+            "count": 73,
+            "samples": [
+                "aguri uchida",
+                "ai xuan",
+                "ai yazawa",
+                "alice mason",
+                "amanda sage"
+            ]
+        },
+        "artist_fineart": {
+            "count": 1382,
+            "samples": [
+                "a r middleton todd",
+                "aaron douglas",
+                "aaron horkey",
+                "aaron jasinski",
+                "ab frost"
+            ]
+        },
+        "artist_horror": {
+            "count": 59,
+            "samples": [
+                "adam kraft",
+                "alan lee",
+                "alan rickman",
+                "alex horley",
+                "alex ross"
+            ]
+        },
+        "artist_n": {
+            "count": 16,
+            "samples": [
+                "amadou opa bathily",
+                "barkley hendricks",
+                "barkley l hendricks",
+                "bruce onobrakpeya",
+                "carrie mae weems"
+            ]
+        },
+        "artist_nudity": {
+            "count": 46,
+            "samples": [
+                "affandi",
+                "albert benois",
+                "albert bertelsen",
+                "albert bloch",
+                "aleksander orowski"
+            ]
+        },
+        "artist_photographer": {
+            "count": 20,
+            "samples": [
+                "alfred stieglitz",
+                "ansel adams",
+                "august sander",
+                "cindy sherman",
+                "diane arbus"
+            ]
+        },
+        "artist_scifi": {
+            "count": 57,
+            "samples": [
+                "akira yoshizawa",
+                "alan baxter",
+                "alex ross",
+                "alexandru patatics",
+                "andreas rossberg"
+            ]
+        },
+        "artist_scribbles": {
+            "count": 342,
+            "samples": [
+                "a j casson",
+                "adolph gottlieb",
+                "adrian tomine",
+                "afarin sajedi",
+                "agnes lawrence pelton"
+            ]
+        },
+        "artist_special": {
+            "count": 27,
+            "samples": [
+                "akihiko yoshida",
+                "alejandro burdisio",
+                "alfonse mucha",
+                "alphonse mucha",
+                "andre kohn"
+            ]
+        },
+        "artist_style": {
+            "count": 6,
+            "samples": [
+                "greg rutkowski",
+                "hayao miyazaki",
+                "salvador dali",
+                "syd mead",
+                "van gogh"
+            ]
+        },
+        "artist_surreal": {
+            "count": 68,
+            "samples": [
+                "aase berg",
+                "abdel hadi al gazzar",
+                "agustin fernandez",
+                "ahmed morsi",
+                "alberto giacometti"
+            ]
+        },
+        "artist_ukioe": {
+            "count": 21,
+            "samples": [
+                "abdur rahman chughtai",
+                "chen hongshou",
+                "emperor huizong of song",
+                "fujiwara takanobu",
+                "goyo hashiguchi"
+            ]
+        },
+        "artist_weird": {
+            "count": 25,
+            "samples": [
+                "alma thomas",
+                "anne packard",
+                "artur bordalo",
+                "brandon mably",
+                "bruno munari"
+            ]
+        },
+        "aspect_ratio": {
+            "count": 13,
+            "samples": [
+                "1331 aspect ratio",
+                "1371 academy aspect ratio",
+                "169 aspect ratio",
+                "1851 aspect ratio",
+                "21 aspect ratio"
+            ]
+        },
+        "atmospheric_phenomena": {
+            "count": 5,
+            "samples": [
+                "aurora borealis streaks",
+                "crepuscular rays",
+                "dramatic cumulus clouds",
+                "heavy fog bank",
+                "soft twilight glow"
+            ]
+        },
+        "background": {
+            "count": 67,
+            "samples": [
+                "airport",
+                "alleyway",
+                "alphonse mucha",
+                "autumn",
+                "barn"
+            ]
+        },
+        "background_color": {
+            "count": 56,
+            "samples": [
+                "aqua background",
+                "argyle background",
+                "background text",
+                "backlighting",
+                "beige background"
+            ]
+        },
+        "bangs": {
+            "count": 32,
+            "samples": [
+                "asymmetrical bangs",
+                "asymmetrical fringe",
+                "baby bangs",
+                "bangs",
+                "blunt bangs"
+            ]
+        },
+        "beaches": {
+            "count": 4,
+            "samples": [
+                "pebble shore",
+                "rocky cliffside cove",
+                "tropical black sand beach",
+                "white sand lagoon"
+            ]
+        },
+        "belt": {
+            "count": 40,
+            "samples": [
+                "army belt",
+                "belt",
+                "belt buckle",
+                "boxing belt",
+                "bronze belt"
+            ]
+        },
+        "biome": {
+            "count": 80,
+            "samples": [
+                "alpine",
+                "alpine desert",
+                "alpine mountain",
+                "arctic",
+                "arctic alpine tundra"
+            ]
+        },
+        "bird": {
+            "count": 237,
+            "samples": [
+                "alder flycatcher",
+                "american bittern",
+                "american black duck",
+                "american coot",
+                "american crow"
+            ]
+        },
+        "blonde": {
+            "count": 15,
+            "samples": [
+                "ash blonde",
+                "beige blonde",
+                "blonde highlights",
+                "butterscotch blonde",
+                "champagne blonde"
+            ]
+        },
+        "body_fit": {
+            "count": 53,
+            "samples": [
+                "active",
+                "athletic",
+                "beefy",
+                "brawny",
+                "built"
+            ]
+        },
+        "body_framing": {
+            "count": 18,
+            "samples": [
+                "close up",
+                "cowboy shot",
+                "cropped arms",
+                "cropped legs",
+                "cropped shoulders"
+            ]
+        },
+        "body_heavy": {
+            "count": 65,
+            "samples": [
+                "ample",
+                "baggy",
+                "baggy figured",
+                "beer bellied",
+                "big bellied"
+            ]
+        },
+        "body_light": {
+            "count": 42,
+            "samples": [
+                "aerodynamic",
+                "angular",
+                "beanstalk",
+                "bony",
+                "delicate"
+            ]
+        },
+        "body_poor": {
+            "count": 56,
+            "samples": [
+                "ailing",
+                "anorexic",
+                "atrophied",
+                "battered",
+                "beat up"
+            ]
+        },
+        "body_shape": {
+            "count": 13,
+            "samples": [
+                "buff",
+                "bulky",
+                "burly",
+                "chubby",
+                "elegant"
+            ]
+        },
+        "body_shape2": {
+            "count": 32,
+            "samples": [
+                "barrel chested",
+                "barrelesque",
+                "blocky",
+                "boobylicious",
+                "bootylicious"
+            ]
+        },
+        "body_short": {
+            "count": 45,
+            "samples": [
+                "belly button high",
+                "bijou",
+                "compact",
+                "dainty",
+                "diminutive"
+            ]
+        },
+        "body_tall": {
+            "count": 32,
+            "samples": [
+                "big",
+                "biggish",
+                "colossal",
+                "gangling",
+                "gargantuan"
+            ]
+        },
+        "bollywood_actors": {
+            "count": 6,
+            "samples": [
+                "aamir khan",
+                "amitabh bachchan",
+                "hrithik roshan",
+                "ranbir kapoor",
+                "salman khan"
+            ]
+        },
+        "bollywood_actresses": {
+            "count": 5,
+            "samples": [
+                "aishwarya rai",
+                "alia bhatt",
+                "deepika padukone",
+                "kareena kapoor",
+                "priyanka chopra"
+            ]
+        },
+        "bollywood_songs": {
+            "count": 4,
+            "samples": [
+                "chaiyya chaiyya vibe",
+                "jai ho energy",
+                "kal ho naa ho theme",
+                "tum hi ho aesthetic"
+            ]
+        },
+        "bollywood_stars": {
+            "count": 2,
+            "samples": [
+                "bollywood actors",
+                "bollywood actresses"
+            ]
+        },
+        "botanical_detail": {
+            "count": 4,
+            "samples": [
+                "dew drops on petals",
+                "intricate floral patterns",
+                "pollen dust in the air",
+                "velvety petal texture"
+            ]
+        },
+        "camera": {
+            "count": 68,
+            "samples": [
+                "canon a2 a2e camera",
+                "canon ae 1 camera",
+                "canon eos 5d mark iv dslr camera",
+                "canon eos 90d dslr camera",
+                "canon eos m50 mark ii mirrorless camera"
+            ]
+        },
+        "camera_angle": {
+            "count": 22,
+            "samples": [
+                "birds eye view",
+                "dutch angle",
+                "extreme close up",
+                "eye level",
+                "from above"
+            ]
+        },
+        "camera_brand": {
+            "count": 10,
+            "samples": [
+                "canon",
+                "fujifilm",
+                "hasselblad",
+                "kodak",
+                "leica"
+            ]
+        },
+        "camera_content_creator_viral": {
+            "count": 29,
+            "samples": [
+                "canon eos r50 35mm f18 stm lens",
+                "canon eos r50 50mm f18 stm lens",
+                "dji mavic 4 pro 24mm f28 hasselblad lens",
+                "dji mavic 4 pro 70mm f28 telephoto lens",
+                "dji osmo pocket 3 built in lens"
+            ]
+        },
+        "camera_focal_length": {
+            "count": 13,
+            "samples": [
+                "135mm focal length",
+                "14mm 35mm focal length",
+                "300mm focal length",
+                "35mm 85mm focal length",
+                "4mm 14mm focal length"
+            ]
+        },
+        "camera_hybrid_photo_video_pro": {
+            "count": 30,
+            "samples": [
+                "blackmagic pyxis 6k 24 70mm f28 lens",
+                "blackmagic pyxis 6k 50mm f14 lens",
+                "canon eos r6 mark ii 24 105mm f4 l lens",
+                "canon eos r6 mark ii 24 70mm f28 l lens",
+                "canon eos r6 mark ii 35mm f14 l vcm lens"
+            ]
+        },
+        "camera_lens": {
+            "count": 6,
+            "samples": [
+                "14mm fisheye",
+                "85mm portrait lens",
+                "anamorphic lens",
+                "bokeh",
+                "deep depth of field"
+            ]
+        },
+        "camera_lense_film": {
+            "count": 89,
+            "samples": [
+                "arri alexa 35 cooke s8 i prime lens kodak vision3 250d",
+                "arri alexa 65 75mm anamorphic lens kodak vision3 500t",
+                "arri alexa 65 anamorphic 40mm f2 cinemascope lens kodak vision3 500t",
+                "arriflex 416 12mm lens kodak vision3 200t",
+                "blackmagic ursa 12k 50mm f12 fast prime lens fujifilm reala 500d"
+            ]
+        },
+        "camera_mirrorless_2025": {
+            "count": 29,
+            "samples": [
+                "canon eos r1 24 70mm f28 l lens",
+                "canon eos r1 28 70mm f2 l lens",
+                "canon eos r1 50mm f12 l lens",
+                "canon eos r1 70 200mm f28 l lens",
+                "canon eos r1 85mm f12 l ds lens"
+            ]
+        },
+        "canada_symbols": {
+            "count": 4,
+            "samples": [
+                "canadian maple leaf flag",
+                "inukshuk statue",
+                "red maple leaf emblem",
+                "royal canadian mounted police uniform"
+            ]
+        },
+        "cardinal_direction": {
+            "count": 4,
+            "samples": [
+                "east",
+                "north",
+                "south",
+                "west"
+            ]
+        },
+        "cars": {
+            "count": 5,
+            "samples": [
+                "cyber truck",
+                "electric sedan",
+                "futuristic supercar",
+                "muscle car",
+                "vintage 1960s classic"
+            ]
+        },
+        "cat": {
+            "count": 41,
+            "samples": [
+                "american bobtail",
+                "american curl",
+                "american shorthair",
+                "american wirehair",
+                "balinese"
+            ]
+        },
+        "celebrity": {
+            "count": 525,
+            "samples": [
+                "addison rae",
+                "adele",
+                "adele exarchopoulos",
+                "adriana lima",
+                "adrianne palicki"
+            ]
+        },
+        "cheekbones": {
+            "count": 3,
+            "samples": [
+                "high prominent cheekbones",
+                "softly contoured cheeks",
+                "sunken hollow cheeks"
+            ]
+        },
+        "chemicals_science": {
+            "count": 4,
+            "samples": [
+                "corrosive acid vapor",
+                "crystallized neon gas",
+                "fluorescent liquid nitrogen",
+                "glowing green isotope"
+            ]
+        },
+        "choker": {
+            "count": 17,
+            "samples": [
+                "anchor choker",
+                "bow choker",
+                "color choker",
+                "cross choker",
+                "frilled choker"
+            ]
+        },
+        "city": {
+            "count": 12,
+            "samples": [
+                "amsterdam",
+                "chicago",
+                "frankfurt",
+                "istanbul",
+                "london"
+            ]
+        },
+        "civilization": {
+            "count": 53,
+            "samples": [
+                "aetherius civilization",
+                "agartha civilization",
+                "asgard civilization",
+                "assyrian civilization",
+                "atlantis civilization"
+            ]
+        },
+        "class": {
+            "count": 281,
+            "samples": [
+                "abjurer",
+                "acrobat",
+                "alchemist",
+                "anchorite",
+                "apocalyptist"
+            ]
+        },
+        "clothed_bundle": {
+            "count": 1,
+            "samples": [
+                "wearing fabric type dress style fully dressed"
+            ]
+        },
+        "clothing": {
+            "count": 286,
+            "samples": [
+                "abaya",
+                "apron",
+                "armor",
+                "armored dress",
+                "athleisure"
+            ]
+        },
+        "clothing_style": {
+            "count": 14,
+            "samples": [
+                "art deco",
+                "bohemian",
+                "draped muslin",
+                "ethereal silk",
+                "holographic fabric"
+            ]
+        },
+        "color": {
+            "count": 312,
+            "samples": [
+                "advent purple",
+                "agreeable gray",
+                "aluminum",
+                "amaranth",
+                "amber"
+            ]
+        },
+        "color_apocalyptic": {
+            "count": 5,
+            "samples": [
+                "deep crimson",
+                "desert beige",
+                "matte black",
+                "oxidized copper",
+                "verdigris"
+            ]
+        },
+        "color_palette": {
+            "count": 10,
+            "samples": [
+                "dusty rose",
+                "high contrast teal and orange",
+                "jewel tones",
+                "monochromatic earth tones",
+                "muted pastels"
+            ]
+        },
+        "color_palette_poster": {
+            "count": 8,
+            "samples": [
+                "bauhaus primary palette with stark canary yellow royal blue and cadmium red",
+                "cyberpunk neon palette with toxic green hot magenta and dark obsidian",
+                "earthy organic palette with terracotta olive and warm beige",
+                "monochromatic high contrast palette with stark white and pure ink black",
+                "nordic muted palette with sage green slate gray and soft sand"
+            ]
+        },
+        "color_palette_strict": {
+            "count": 5,
+            "samples": [
+                "clean corporate blue and white color scheme with light gray accents",
+                "cyberpunk neon palette featuring intense purple vibrant blue and dark obsidian backing",
+                "premium brand palette pure white background contrasted with deep navy blue and gold accents",
+                "stark high contrast black white and gray monochrome palette",
+                "warm editorial palette using muted terracotta warm beige and deep charcoal"
+            ]
+        },
+        "common_flowers": {
+            "count": 7,
+            "samples": [
+                "hibiscus",
+                "lavender",
+                "marigold",
+                "red rose",
+                "sunflowers"
+            ]
+        },
+        "composition_planning": {
+            "count": 10,
+            "samples": [
+                "2x2 grid matrix structured infographic layout",
+                "asymmetrical high contrast layout",
+                "center focused symmetrical layout",
+                "circular radial balance layout",
+                "diagonal split dynamic layout"
+            ]
+        },
+        "cosmic_galaxy": {
+            "count": 47,
+            "samples": [
+                "abell galaxy",
+                "alcyoneus galaxy",
+                "andromeda galaxy",
+                "antennae galaxies",
+                "antila 2 galaxy"
+            ]
+        },
+        "cosmic_nebula": {
+            "count": 95,
+            "samples": [
+                "ant nebula",
+                "barnards loop nebula",
+                "blue flash nebula",
+                "blue snowball nebula",
+                "boomerang nebula"
+            ]
+        },
+        "cosmic_star": {
+            "count": 88,
+            "samples": [
+                "achernar star",
+                "acrab star",
+                "acrux star",
+                "adhara star",
+                "aldebaran star"
+            ]
+        },
+        "cosmic_term": {
+            "count": 152,
+            "samples": [
+                "asteroid",
+                "asteroid belt",
+                "asteroid field",
+                "asteroids",
+                "astronaut"
+            ]
+        },
+        "country": {
+            "count": 192,
+            "samples": [
+                "afghanistan",
+                "albania",
+                "algeria",
+                "andorra",
+                "angola"
+            ]
+        },
+        "country_flags": {
+            "count": 16,
+            "samples": [
+                "flag of argentina",
+                "flag of australia",
+                "flag of brazil",
+                "flag of canada",
+                "flag of china"
+            ]
+        },
+        "cyber_apparel": {
+            "count": 6,
+            "samples": [
+                "",
+                "carbon fiber kimono",
+                "casual hoodie",
+                "pencil skirt",
+                "professional blazer"
+            ]
+        },
+        "cyber_context": {
+            "count": 5,
+            "samples": [
+                "analyzing a glowing holographic server rack",
+                "monitoring an industrial ot control panel",
+                "securing a futuristic power plant interface",
+                "surrounded by floating digital code in a dark data center",
+                "typing on a transparent glass keyboard"
+            ]
+        },
+        "cyber_mood": {
+            "count": 5,
+            "samples": [
+                "cybernetic gold",
+                "deep security blue",
+                "emergency red alert",
+                "matrix green",
+                "terminal amber"
+            ]
+        },
+        "data_visualization_types": {
+            "count": 6,
+            "samples": [
+                "chronological step by step process flowchart utilizing circular numbered vector icons interconnected by dashed directional arrows",
+                "data dense trend line graph with an ascending bright vector path plotted over fine background coordinate grid lines",
+                "hierarchical top down organization tree structure displaying parent child block relationships",
+                "horizontal timeline infographic containing clean node points progressing sequentially from left to right",
+                "proportional circular pie chart breakdown with high contrast sliced segments and clean side text markers"
+            ]
+        },
+        "decade": {
+            "count": 13,
+            "samples": [
+                "1900s",
+                "1910s",
+                "1920s",
+                "1930s",
+                "1940s"
+            ]
+        },
+        "deity": {
+            "count": 105,
+            "samples": [
+                "abaddon",
+                "achilles",
+                "adonis",
+                "amaterasu",
+                "ana"
+            ]
+        },
+        "design_pattern": {
+            "count": 25,
+            "samples": [
+                "abstract",
+                "animal",
+                "black white",
+                "botanical",
+                "check"
+            ]
+        },
+        "detail": {
+            "count": 30,
+            "samples": [
+                "complicated",
+                "convoluted",
+                "dazzling",
+                "detailed",
+                "elaborate"
+            ]
+        },
+        "digital_overlay": {
+            "count": 5,
+            "samples": [
+                "binary code rain",
+                "hexadecimal glitch effects",
+                "holographic ui elements",
+                "network node diagrams",
+                "scrolling terminal text"
+            ]
+        },
+        "dinosaur": {
+            "count": 535,
+            "samples": [
+                "aardonyx",
+                "abelisaurus",
+                "abrictosaurus",
+                "abrosaurus",
+                "abydosaurus"
+            ]
+        },
+        "distinctive": {
+            "count": 4,
+            "samples": [
+                "a cleft chin",
+                "a prominent brow ridge",
+                "dimples",
+                "freckles"
+            ]
+        },
+        "dog": {
+            "count": 130,
+            "samples": [
+                "afghan hound",
+                "akita",
+                "alaskan malamute",
+                "american bulldog",
+                "american pit bull terrier"
+            ]
+        },
+        "dress": {
+            "count": 84,
+            "samples": [
+                "backless dress",
+                "ball gown dress",
+                "bodycon",
+                "boho dress",
+                "cake dress"
+            ]
+        },
+        "dress_material": {
+            "count": 5,
+            "samples": [
+                "embroidered lace",
+                "metallic lace",
+                "sheer black lace",
+                "silk mesh and lace",
+                "velvet and lace"
+            ]
+        },
+        "dress_pattern": {
+            "count": 20,
+            "samples": [
+                "abstract floral embroidery",
+                "abstract lace netting",
+                "abstract watercolor wash",
+                "baroque floral lace",
+                "embroidered filigree"
+            ]
+        },
+        "dress_status": {
+            "count": 3,
+            "samples": [
+                "fully dressed",
+                "naked",
+                "partially dressed"
+            ]
+        },
+        "emoji": {
+            "count": 11,
+            "samples": [
+                "",
+                "0",
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "emoji_combo": {
+            "count": 1,
+            "samples": [
+                ""
+            ]
+        },
+        "environment": {
+            "count": 5,
+            "samples": [
+                "abandoned space station",
+                "ancient forest",
+                "cyberpunk city",
+                "mediterranean coast",
+                "surreal dreamscape"
+            ]
+        },
+        "essence_blunt": {
+            "count": 2,
+            "samples": [
+                "straightforward and strong boned",
+                "wide blunt and natural"
+            ]
+        },
+        "essence_sharp": {
+            "count": 3,
+            "samples": [
+                "angular",
+                "elongated and chiseled",
+                "sharp strong and dramatic"
+            ]
+        },
+        "essence_soft": {
+            "count": 3,
+            "samples": [
+                "ingenue",
+                "romantic and lush",
+                "rounded soft and delicate"
+            ]
+        },
+        "exotic_flowers": {
+            "count": 6,
+            "samples": [
+                "anthirium",
+                "bird of paradise",
+                "blue lotus",
+                "night blooming cereus",
+                "orchid"
+            ]
+        },
+        "expression": {
+            "count": 82,
+            "samples": [
+                "",
+                "3",
+                "afraid",
+                "amused",
+                "anger"
+            ]
+        },
+        "eye_shapes": {
+            "count": 5,
+            "samples": [
+                "almond shaped",
+                "deep set",
+                "hooded",
+                "monolid",
+                "wide set"
+            ]
+        },
+        "f_stop": {
+            "count": 10,
+            "samples": [
+                "1",
+                "11",
+                "14",
+                "16",
+                "2"
+            ]
+        },
+        "fabic_embellishment": {
+            "count": 22,
+            "samples": [
+                "3d",
+                "bonded",
+                "burnout",
+                "caviar",
+                "clipped"
+            ]
+        },
+        "fabric_all": {
+            "count": 44,
+            "samples": [
+                "3d printed mesh",
+                "artisan leather",
+                "bamboo fiber",
+                "bandage dress elastane",
+                "bio responsive textile"
+            ]
+        },
+        "fabric_fiber": {
+            "count": 39,
+            "samples": [
+                "axminster",
+                "bamboo fiber",
+                "bemberg",
+                "brocatelle",
+                "camel hair"
+            ]
+        },
+        "fabric_reflectivity": {
+            "count": 6,
+            "samples": [
+                "ciré",
+                "glossy",
+                "matte",
+                "mercerization",
+                "sheen"
+            ]
+        },
+        "fabric_transparency": {
+            "count": 4,
+            "samples": [
+                "organza",
+                "solid",
+                "translucent",
+                "transparent"
+            ]
+        },
+        "fabric_type": {
+            "count": 49,
+            "samples": [
+                "boucle",
+                "cdc",
+                "challis",
+                "charmeuse",
+                "chiffon"
+            ]
+        },
+        "fabric_weaves": {
+            "count": 28,
+            "samples": [
+                "boucle",
+                "cdc",
+                "challis",
+                "charmeuse",
+                "chiffon"
+            ]
+        },
+        "fabric_with_adjective_all": {
+            "count": 55,
+            "samples": [
+                "acoustic sound dampening thick felt",
+                "adaptive fastening systems magnets velcro",
+                "anti microbial performance knit",
+                "bohemian free spirited embroidery",
+                "breathing organic cotton gauze"
+            ]
+        },
+        "fantasy": {
+            "count": 19,
+            "samples": [
+                "contemporary fantasy",
+                "dark fantasy",
+                "epic fantasy",
+                "fairy tale fantasy",
+                "fantasy of terror"
+            ]
+        },
+        "fantasy_creature": {
+            "count": 35,
+            "samples": [
+                "centaurs",
+                "demon",
+                "dragons",
+                "dwarves",
+                "elves"
+            ]
+        },
+        "fantasy_setting": {
+            "count": 36,
+            "samples": [
+                "a dark foreboding castle where a wicked queen reigns",
+                "a fairytale land where magical creatures live and thrive",
+                "a magical kingdom where everything is perfect and everyone is happy",
+                "a tropical paradise where the sun shines brightly every day",
+                "an enchanted forest where magical creatures and plants abound"
+            ]
+        },
+        "fashion": {
+            "count": 4,
+            "samples": [
+                "avant garde techwear",
+                "cyberpunk streetwear",
+                "minimalist linen",
+                "victorian silk"
+            ]
+        },
+        "faunal_life": {
+            "count": 5,
+            "samples": [
+                "blue heron",
+                "crowned crane",
+                "mountain goat",
+                "vulture circling",
+                "wild deer"
+            ]
+        },
+        "female_name": {
+            "count": 186,
+            "samples": [
+                "aaliyah",
+                "abigail",
+                "adalyn",
+                "addison",
+                "adeline"
+            ]
+        },
+        "festivals": {
+            "count": 17,
+            "samples": [
+                "burning man",
+                "carnival de rio",
+                "christmas",
+                "cinco de mayo",
+                "diwali"
+            ]
+        },
+        "film_genre": {
+            "count": 19,
+            "samples": [
+                "action",
+                "adventure",
+                "animation",
+                "comedy",
+                "crime"
+            ]
+        },
+        "film_stocks": {
+            "count": 64,
+            "samples": [
+                "adox chs 100 ii",
+                "agfa apx 400",
+                "agfa ct 100 precisa",
+                "agfa vista 200",
+                "bergger pancro 400"
+            ]
+        },
+        "fish": {
+            "count": 1081,
+            "samples": [
+                "african glass catfish",
+                "african lungfish",
+                "aholehole",
+                "airbreathing catfish",
+                "airsac catfish"
+            ]
+        },
+        "flags": {
+            "count": 5,
+            "samples": [
+                "brazilian bandeira",
+                "indian tri color",
+                "rising sun",
+                "stars and stripes",
+                "union jack"
+            ]
+        },
+        "flora_type": {
+            "count": 5,
+            "samples": [
+                "carnivorous lilies",
+                "deep red orchids",
+                "jungle ferns",
+                "tropical pitcher plants",
+                "vetiver grass"
+            ]
+        },
+        "floral_element": {
+            "count": 5,
+            "samples": [
+                "anthurium",
+                "bromeliad",
+                "heliconia",
+                "monsterra leaf",
+                "orchid"
+            ]
+        },
+        "flower": {
+            "count": 253,
+            "samples": [
+                "acacia",
+                "achillea",
+                "adams needle",
+                "african boxwood",
+                "african lily"
+            ]
+        },
+        "flower_color_select": {
+            "count": 5,
+            "samples": [
+                "crimson red",
+                "deep purple",
+                "electric blue",
+                "golden yellow",
+                "white and magenta"
+            ]
+        },
+        "food": {
+            "count": 775,
+            "samples": [
+                "abalone",
+                "acai berries",
+                "acai juice",
+                "acorn squash",
+                "adzuki bean paste"
+            ]
+        },
+        "forest_type": {
+            "count": 89,
+            "samples": [
+                "boreal and alpine broadleaf forest",
+                "boreal and alpine coniferous forest",
+                "boreal and alpine forest",
+                "boreal and alpine mixed forest",
+                "boreal and alpine rainforest"
+            ]
+        },
+        "fruit": {
+            "count": 372,
+            "samples": [
+                "abiu",
+                "acai",
+                "acerola",
+                "ackee",
+                "african cherry orange"
+            ]
+        },
+        "furniture": {
+            "count": 22,
+            "samples": [
+                "armchair",
+                "bookcase",
+                "cabinet",
+                "chair",
+                "chest"
+            ]
+        },
+        "game": {
+            "count": 154,
+            "samples": [
+                "8 bit jrpg",
+                "a short hike",
+                "age of empires",
+                "albion",
+                "alone in the dark"
+            ]
+        },
+        "gem": {
+            "count": 43,
+            "samples": [
+                "alexandrite",
+                "amethyst",
+                "aquamarine",
+                "black diamond",
+                "black opal"
+            ]
+        },
+        "gen_modifier": {
+            "count": 68,
+            "samples": [
+                "60s kitsch and psychedelia",
+                "abstract illusionism",
+                "afrofuturism",
+                "ambrotype",
+                "american romanticism"
+            ]
+        },
+        "gender": {
+            "count": 5,
+            "samples": [
+                "boy",
+                "female",
+                "girl",
+                "male",
+                "non binary"
+            ]
+        },
+        "gender_comprehensive": {
+            "count": 54,
+            "samples": [
+                "agender",
+                "androgyne",
+                "androgynous",
+                "bigender",
+                "boy"
+            ]
+        },
+        "genre": {
+            "count": 74,
+            "samples": [
+                "abstract art",
+                "action painting",
+                "aestheticism",
+                "agrarian art",
+                "analytical cubism"
+            ]
+        },
+        "graphic_elements": {
+            "count": 10,
+            "samples": [
+                "bold drop shadow blocks and paper cutouts",
+                "clean technical blueprints blueprints and lines",
+                "clean vector isometric icons",
+                "flat design abstract geometric shapes",
+                "glowing neon grid lines and cyber accents"
+            ]
+        },
+        "greenhouse_condition": {
+            "count": 5,
+            "samples": [
+                "abandoned and moss covered",
+                "dilapidated and overgrown",
+                "rustic industrial",
+                "structurally pristine and grand",
+                "victorian glasshouse"
+            ]
+        },
+        "grid_system_alignment": {
+            "count": 5,
+            "samples": [
+                "2x2 four panel grid matrix perfectly balanced borders even gutters center aligned items",
+                "2x3 six panel grid layout identical cell proportions uniform spacing left aligned interior text boxes",
+                "asymmetric grid layout sharp vertical separation line left aligned wide zone right aligned narrow node list",
+                "three equal width vertical columns justified margins evenly distributed spacing between elements",
+                "three row horizontal list layout evenly spaced intervals sharp geometric vector split lines"
+            ]
+        },
+        "hair_style": {
+            "count": 7,
+            "samples": [
+                "braided crown",
+                "natural loose curls",
+                "sleek ponytail",
+                "tied",
+                "voluminous curtain bangs"
+            ]
+        },
+        "hair_styles": {
+            "count": 6,
+            "samples": [
+                "braids",
+                "messy bun",
+                "neon dyed hair",
+                "sleek ponytail",
+                "undercut"
+            ]
+        },
+        "hairstyling": {
+            "count": 5,
+            "samples": [
+                "braided crown bohemian",
+                "finger waves vintage",
+                "slicked back low ponytail",
+                "voluminous curls messy",
+                "wet look waves"
+            ]
+        },
+        "hd": {
+            "count": 12,
+            "samples": [
+                "12k resolution",
+                "16k resolution",
+                "2k resolution",
+                "32k resolution",
+                "4k resolution"
+            ]
+        },
+        "heavy_transport": {
+            "count": 5,
+            "samples": [
+                "cargo ship",
+                "deep sea submarine",
+                "high speed maglev train",
+                "spaceship",
+                "stealth helicopter"
+            ]
+        },
+        "horror": {
+            "count": 43,
+            "samples": [
+                "alien",
+                "apocalyptic",
+                "body horror",
+                "cannibal",
+                "comedy horror"
+            ]
+        },
+        "human_identity": {
+            "count": 17,
+            "samples": [
+                "baby",
+                "boy",
+                "girl",
+                "man",
+                "middle aged man"
+            ]
+        },
+        "imaeg_fine_art": {
+            "count": 10,
+            "samples": [
+                "abstract texture macro canon r5 100mm f28 macro extreme close up peeling paint shallow dof abstract composition gallery print fine art color field",
+                "cyanotype texture solar uv print deep blue leaves on paper botanical specimen handmade artistic historical process unique print organic shapes",
+                "gum bichromate layered hand coated paper watercolor texture soft pastels layered images painterly photography fine art process non silver process",
+                "intentional camera movement icm nikon z8 24 70mm f28 1 15 shutter vertical motion blur trees abstracted painterly fine art landscape impressionist",
+                "light painting abstract sony a7r iii 24mm f14 long exposure light trails dark studio neon lights drawing in air night photography modern art"
+            ]
+        },
+        "image_cinematography": {
+            "count": 10,
+            "samples": [
+                "action vfx blockbuster sony venice 2 35mm f18 high frame rate 8k blue green screen motion blur cg integration explosive movement sci fi aesthetic",
+                "epic cinematic widescreen arri alexa 65 75mm anamorphic 2391 scope teal and orange grade deep focus dramatic tracking shot vision3 500t imax scale",
+                "gritty documentary war zone canon c500 mark ii 24mm f14 handheld shake grainy pushed film natural harsh light raw urgency cnn style reportage",
+                "intimate dialogue scene red komodo 6k 40mm lens 1851 aspect natural candlelight shallow dof face close ups cinema verite fuji eterna 250d",
+                "music video vibrant sony fx6 16 35mm f28 neon lighting high saturation rapid cuts dancing subjects dynamic camera movement mtv style 2000s"
+            ]
+        },
+        "image_fashion_photography": {
+            "count": 10,
+            "samples": [
+                "avant garde conceptual mamiya rz67 110mm f28 unusual angles abstract styling surreal fashion experimental creative agency moodboard",
+                "e commerce clean shot sony a7r v 24 70mm f28 at 70mm bright flat lighting pure white background multiple outfit changes amazon fashion clear detail",
+                "high end editorial fashion hasselblad h6d 100c 100mm f22 lens studio strobes white cyc ultra sharp glossy magazine quality vogue editorial full body styling dramatic posing",
+                "high fashion bw studio phase one iq4 150mp 80mm f28 dramatic side lighting sculpted shadows minimalist styling harpers bazaar aesthetic",
+                "lingerie boudoir canon r5 85mm f12 ds soft window light intimate posing sheer fabrics romantic mood delicate feminine victorias secret soft"
+            ]
+        },
+        "image_landscape_photography": {
+            "count": 10,
+            "samples": [
+                "aerial drone landscape dji mavic 3 pro 24mm f28 top down perspective patterns agricultural fields textures abstract patterns birds eye view",
+                "autumn forest colors nikon z8 24 70mm f28 at 24mm velvia 100 vibrant reds oranges deep dof misty morning sun rays through trees magical fall",
+                "cityscape sunset fujifilm x t5 10 24mm f4 dramatic skyline city lights dusk transition blue hour vibrant orange clouds metropolitan panorama",
+                "coastal cliffs dramatic pentax 67 45mm f4 kodak ektar 100 rugged coastline crashing waves dramatic clouds warm afternoon light epic scale",
+                "desert dunes leica q3 28mm f17 golden hour warm tones sweeping curves human scale figure minimalist national geographic vast emptiness"
+            ]
+        },
+        "image_portrait_photography": {
+            "count": 10,
+            "samples": [
+                "artistic fine art portrait leica m10 50mm f095 noctilux wide open dreamy falloff subject in a field painterly bokeh ethereal mystical fine art print",
+                "character portrait elderly phase one xf 150mm f28 deep wrinkles detail wisdom lines dramatic side light high contrast black and white powerful face",
+                "child portrait playful sony a7 iv 50mm f14 low angle laughing candid shallow dof bright colorful background innocent expression family album",
+                "classic studio portrait hasselblad 501cm 80mm f28 softbox lighting rembrandt pattern subject facing camera medium format sharpness kodak portra 400 timeless",
+                "corporate executive portrait canon r5 70 200mm f28 at 135mm three point studio lighting confident pose suits clean background linkedin professional"
+            ]
+        },
+        "image_product_photography": {
+            "count": 10,
+            "samples": [
+                "automotive studio hasselblad h6d 100mm f22 dark studio dramatic light painting glossy reflections car detail luxury ad sleek and polished",
+                "beverage splash nikon d850 60mm macro 1 1000 freeze high speed sync water droplets motion frozen colorful drink dynamic action refreshing",
+                "clean e commerce white background canon r5 100mm f28 macro f11 sharp softbox lighting 45 degree pure white product detail amazon b2c standard",
+                "cosmetics beauty shot sony a7r iv 90mm f28 macro high key lighting bottle reflection consistent colors clean pastel background sephora style",
+                "fashion product on mannequin phase one iq4 150mp 80mm f28 studio strobes crisp detail garment texture pure black background luxury catalog"
+            ]
+        },
+        "image_size": {
+            "count": 12,
+            "samples": [
+                "1610",
+                "169",
+                "219",
+                "45",
+                "image size bg"
+            ]
+        },
+        "image_size_bg": {
+            "count": 5,
+            "samples": [
+                "219",
+                "329",
+                "imax",
+                "panorama",
+                "ultrawide"
+            ]
+        },
+        "image_size_blog": {
+            "count": 5,
+            "samples": [
+                "1610",
+                "169",
+                "43",
+                "landscape",
+                "square"
+            ]
+        },
+        "image_street_documentary": {
+            "count": 10,
+            "samples": [
+                "color street photography fujifilm x100v 23mm f2 kodak portra 400 vibrant city colors reflections neon signs wet pavement night street urban energy",
+                "festival street celebration fuji x pro3 23mm f14 vibrant saturation dancing crowd colorful costumes movement blur joyful energy candid celebration",
+                "homeless portrait series rolleiflex 28f 80mm f28 medium format sensitive approach dignified subjects natural light black and white compassionate",
+                "marketplace busy canon 5d mark iv 35mm f14 vibrant colors busy vendors fresh produce candid interactions sensory overload busy atmosphere",
+                "night street neon cinestill 800t 50mm f14 halation highlights reflections rainy night lonely figure atmospheric noir wong kar wai aesthetic"
+            ]
+        },
+        "image_style": {
+            "count": 53,
+            "samples": [
+                "abstract",
+                "acrylic paint medium",
+                "airbrush medium",
+                "anime screencap",
+                "art deco"
+            ]
+        },
+        "image_wedding_photography": {
+            "count": 10,
+            "samples": [
+                "bridal portraits canon r3 50mm f12 soft window light bridal veil glowing skin elegant posing classic beauty editorial bridal magazine quality",
+                "ceremony moment canon r5 70 200mm f28 at 200mm compressed candid bride and groom emotional moment natural light shallow dof documentary style",
+                "church ceremony hasselblad x1d ii 45mm f35 wide angle grand architecture natural light through windows solemn moment medium format detail timeless",
+                "first dance panasonic s5 ii 50mm f14 slow shutter motion blur romantic silhouette dramatic lighting dance floor cinematic magical ambiance",
+                "getting ready fujifilm x t5 33mm f14 natural window light bridal makeup intimate details emotional moments behind the scenes soft pastels"
+            ]
+        },
+        "indian_state": {
+            "count": 28,
+            "samples": [
+                "andhra pradesh",
+                "arunachal pradesh",
+                "assam",
+                "bihar",
+                "chhattisgarh"
+            ]
+        },
+        "industrial_energy": {
+            "count": 5,
+            "samples": [
+                "hydroelectric dam",
+                "nuclear reactor core",
+                "offshore oil rig",
+                "solar panel farm",
+                "wind turbine field"
+            ]
+        },
+        "industrial_textures": {
+            "count": 4,
+            "samples": [
+                "brushed nickel",
+                "concrete formwork",
+                "galvanized steel",
+                "weathered copper"
+            ]
+        },
+        "infographic_data_types": {
+            "count": 6,
+            "samples": [
+                "central anatomical core with radiating data callouts",
+                "comparative side by side metrics table",
+                "hierarchical target pyramid stack diagram",
+                "proportional data block percentages visualization",
+                "step by step numbered flow charts"
+            ]
+        },
+        "interior": {
+            "count": 49,
+            "samples": [
+                "art deco interior",
+                "art nouveau interior",
+                "asian interior",
+                "beach house interior",
+                "bohemian interior"
+            ]
+        },
+        "iso_stop": {
+            "count": 13,
+            "samples": [
+                "iso 100",
+                "iso 102400",
+                "iso 12500",
+                "iso 1600",
+                "iso 200"
+            ]
+        },
+        "jawline": {
+            "count": 3,
+            "samples": [
+                "a essence blunt jawline",
+                "a essence sharp jawline",
+                "a essence soft jawline"
+            ]
+        },
+        "lace_style": {
+            "count": 5,
+            "samples": [
+                "babydoll lace",
+                "chantilly lace",
+                "geometric lace",
+                "guipure lace",
+                "venetian lace"
+            ]
+        },
+        "landmarks": {
+            "count": 109,
+            "samples": [
+                "acropolis of athens",
+                "alhambra",
+                "angkor wat",
+                "atomium",
+                "aztec pyramid"
+            ]
+        },
+        "landscape": {
+            "count": 120,
+            "samples": [
+                "abstract landscape",
+                "aerial landscape",
+                "architectural landscape",
+                "botanical landscape",
+                "cityscapes"
+            ]
+        },
+        "layered_hairstyle_all_layered_cuts": {
+            "count": 14,
+            "samples": [
+                "chandelier layers",
+                "choppy spiky wolf cut",
+                "fine layered strands",
+                "invisible layers",
+                "layered shoulder bob"
+            ]
+        },
+        "layout_negative_constraints": {
+            "count": 5,
+            "samples": [
+                "blurry charts imprecise line splits text labels clipping borders missing annotations asymmetric distortion on grid items",
+                "distorted fonts double lettering words bleeding into background colors unreadable text blocks crowded margins lack of white space",
+                "low contrast typography blurred characters missing quote targets unaligned columns uneven spacing messy gutters overlapping boundaries",
+                "oversaturated color bleeding color distortion disrupting readability chaotic layout cluttered components cross axis text lines messy data plots",
+                "text formatting errors text overlapping images alternating languages within a line character distortion jumbled characters text crowding messy text layout"
+            ]
+        },
+        "layout_style_accents": {
+            "count": 5,
+            "samples": [
+                "corporate executive aesthetic light gray clean background rounded rectangle framing card objects",
+                "flat design minimalist aesthetics crisp borders ample white space",
+                "modern tech inspired aesthetic dark background texture glowing blue purple vector accent lines",
+                "retro vintage poster vibe weathered paper background texture thin geometric dividing lines",
+                "swiss international style high contrast primary colors solid color block backing zero overlapping artifacts"
+            ]
+        },
+        "leaders": {
+            "count": 5,
+            "samples": [
+                "abraham lincoln",
+                "dalai lama",
+                "mahatma gandhi",
+                "martin luther king jr",
+                "nelson mandela"
+            ]
+        },
+        "legwear": {
+            "count": 50,
+            "samples": [
+                "ankle socks",
+                "bobby socks",
+                "cable knit pantyhose",
+                "cable knit tights",
+                "control top pantyhose"
+            ]
+        },
+        "lens": {
+            "count": 5,
+            "samples": [
+                "35mm lens",
+                "85mm portrait lens",
+                "anamorphic",
+                "macro lens",
+                "wide angle lens"
+            ]
+        },
+        "lens_pose_pairings": {
+            "count": 35,
+            "samples": [
+                "100mm f28 macro hands holding object extreme detail texture product fashion hybrid intricate focus",
+                "105mm f28 macro lens extreme close up of eye detailed iris texture abstract beauty shallow dof",
+                "12mm ultra wide low angle hero pose subject towering dramatic perspective powerful fashion",
+                "135mm f18 lens profile pose sharp side light dramatic rim light sculpted facial features",
+                "135mm f18 plena lens subject in a three quarter profile turning over the shoulder dramatic sunset rim light cutting across cheekbones tack sharp eye focus painterly background separation"
+            ]
+        },
+        "lens_types": {
+            "count": 66,
+            "samples": [
+                "100mm f28 macro",
+                "100mm f28 telephoto",
+                "105mm f24 portrait medium format",
+                "105mm f28 macro",
+                "110mm f28 medium telephoto"
+            ]
+        },
+        "lighting": {
+            "count": 45,
+            "samples": [
+                "accent lighting",
+                "ambient artificial light",
+                "ambient lighting",
+                "ambient natural light",
+                "background light"
+            ]
+        },
+        "lighting_color_temp": {
+            "count": 4,
+            "samples": [
+                "2700k warm white",
+                "4000k natural daylight",
+                "6500k cool blue",
+                "sodium vapor orange"
+            ]
+        },
+        "lighting_condition": {
+            "count": 5,
+            "samples": [
+                "dappled sunlight",
+                "golden hour",
+                "midday harsh sun",
+                "misty morning",
+                "soft twilight"
+            ]
+        },
+        "lighting_effect": {
+            "count": 10,
+            "samples": [
+                "backlit",
+                "blue hour gloom",
+                "chiaroscuro",
+                "dappled sunlight",
+                "god rays"
+            ]
+        },
+        "lighting_tech": {
+            "count": 5,
+            "samples": [
+                "biometric scanner laser",
+                "flickering server leds",
+                "high contrast terminal glare",
+                "soft blue monitor glow",
+                "under glow from floor panels"
+            ]
+        },
+        "lighting_type": {
+            "count": 3,
+            "samples": [
+                "dramatic twilight",
+                "golden hour",
+                "harsh midday sun"
+            ]
+        },
+        "lingerie_style": {
+            "count": 5,
+            "samples": [
+                "corset bodysuit",
+                "garter belt set",
+                "lace teddy",
+                "sheer babydoll",
+                "thong ensemble"
+            ]
+        },
+        "location_any": {
+            "count": 268,
+            "samples": [
+                "airfield",
+                "airplane interior",
+                "airport",
+                "alley",
+                "alleyway"
+            ]
+        },
+        "location_indoor": {
+            "count": 5,
+            "samples": [
+                "abandoned cathedral",
+                "cozy library",
+                "cyberpunk laboratory",
+                "futuristic server room",
+                "industrial warehouse"
+            ]
+        },
+        "location_outdoor": {
+            "count": 19,
+            "samples": [
+                "a brutalist bunker",
+                "a tuscan villa",
+                "alpine forest",
+                "beach",
+                "bridge"
+            ]
+        },
+        "male_adult": {
+            "count": 5,
+            "samples": [
+                "man",
+                "middle aged man",
+                "old man",
+                "older man",
+                "young man"
+            ]
+        },
+        "male_name": {
+            "count": 229,
+            "samples": [
+                "aarav",
+                "aaron",
+                "abel",
+                "ace",
+                "adam"
+            ]
+        },
+        "male_young": {
+            "count": 3,
+            "samples": [
+                "boy",
+                "teenage boy",
+                "young boy"
+            ]
+        },
+        "man_clothing": {
+            "count": 68,
+            "samples": [
+                "athletic wear",
+                "bermuda shorts",
+                "blazer",
+                "bomber jacket",
+                "button up shirt"
+            ]
+        },
+        "man_costume": {
+            "count": 76,
+            "samples": [
+                "biker costume",
+                "burglar costume",
+                "businessman costume",
+                "butler costume",
+                "camel costume"
+            ]
+        },
+        "man_dress_suit": {
+            "count": 56,
+            "samples": [
+                "american suit",
+                "black tie",
+                "british suit",
+                "business suit",
+                "casual suit"
+            ]
+        },
+        "man_hair_style_general": {
+            "count": 50,
+            "samples": [
+                "afro",
+                "beard",
+                "blunt cut",
+                "buzz cut",
+                "clean shaven"
+            ]
+        },
+        "man_headwear": {
+            "count": 24,
+            "samples": [
+                "baseball cap",
+                "beanie",
+                "beret",
+                "bobble hat",
+                "bowler hat"
+            ]
+        },
+        "material_construction": {
+            "count": 5,
+            "samples": [
+                "ceramic",
+                "stone carved",
+                "terracotta",
+                "unglazed earthenware",
+                "weathered clay"
+            ]
+        },
+        "materials_household": {
+            "count": 9,
+            "samples": [
+                "aerogel",
+                "brushed aluminum",
+                "carbon fiber",
+                "graphene",
+                "liquid mercury"
+            ]
+        },
+        "monster": {
+            "count": 151,
+            "samples": [
+                "abaddon",
+                "abominable snowman",
+                "alien",
+                "ammit",
+                "anansi"
+            ]
+        },
+        "mood": {
+            "count": 14,
+            "samples": [
+                "bioluminescent",
+                "cinematic",
+                "dark",
+                "dark and moody",
+                "defiant"
+            ]
+        },
+        "mood_expression": {
+            "count": 5,
+            "samples": [
+                "challenging gaze",
+                "melancholic contemplation",
+                "regal indifference",
+                "smoldering allure",
+                "soft inviting smile"
+            ]
+        },
+        "moon": {
+            "count": 4,
+            "samples": [
+                "a glowing crescent moon",
+                "a massive harvest moon",
+                "a pale full moon",
+                "a sliver of a silver moon"
+            ]
+        },
+        "mountain_geology": {
+            "count": 5,
+            "samples": [
+                "desert sandstone buttes",
+                "glacial fjord mountains",
+                "jagged granite ranges",
+                "mist shrouded limestone cliffs",
+                "volcanic basalt peaks"
+            ]
+        },
+        "mountain_range": {
+            "count": 5,
+            "samples": [
+                "ancient craggy peaks",
+                "desert canyons",
+                "glacier capped peaks",
+                "mist shrouded peaks",
+                "volcanic peaks"
+            ]
+        },
+        "mountains": {
+            "count": 4,
+            "samples": [
+                "highland plateau",
+                "jagged volcanic ridges",
+                "mist covered rolling hills",
+                "snow capped peaks"
+            ]
+        },
+        "movement": {
+            "count": 192,
+            "samples": [
+                "abstract art",
+                "abstract expressionism",
+                "abstract illusionism",
+                "academic art",
+                "action painting"
+            ]
+        },
+        "music_genres": {
+            "count": 7,
+            "samples": [
+                "bollywood pop",
+                "classical raga",
+                "edm",
+                "hip hop",
+                "jazz"
+            ]
+        },
+        "musical_instruments": {
+            "count": 7,
+            "samples": [
+                "drums",
+                "electric guitar",
+                "flute",
+                "grand piano",
+                "sitar"
+            ]
+        },
+        "naked_bundle": {
+            "count": 1,
+            "samples": [
+                "completely naked skin texture visible no clothes"
+            ]
+        },
+        "national_park": {
+            "count": 55,
+            "samples": [
+                "acadia national park",
+                "arches national park",
+                "badlands national park",
+                "big bend national park",
+                "biscayne national park"
+            ]
+        },
+        "nationality": {
+            "count": 228,
+            "samples": [
+                "afghan",
+                "albanian",
+                "algerian",
+                "american",
+                "andorran"
+            ]
+        },
+        "natural_wonders": {
+            "count": 6,
+            "samples": [
+                "amazon rainforest",
+                "grand canyon",
+                "great barrier reef",
+                "mount everest",
+                "northern lights"
+            ]
+        },
+        "nature_elements": {
+            "count": 3,
+            "samples": [
+                "beaches",
+                "mountains",
+                "plants"
+            ]
+        },
+        "neg_weight": {
+            "count": 32,
+            "samples": [
+                "artifacts",
+                "asymmetry",
+                "banding",
+                "blocked",
+                "blurry"
+            ]
+        },
+        "new_experimental_cat": {
+            "count": 2,
+            "samples": [
+                "option alpha",
+                "option beta"
+            ]
+        },
+        "noun_beauty": {
+            "count": 111,
+            "samples": [
+                "a perfect 10",
+                "a vision",
+                "admirer",
+                "allure",
+                "amazement"
+            ]
+        },
+        "noun_fantasy": {
+            "count": 126,
+            "samples": [
+                "alchemy",
+                "apprentice",
+                "archer",
+                "armor",
+                "battering ram"
+            ]
+        },
+        "noun_general": {
+            "count": 1523,
+            "samples": [
+                "ability",
+                "abroad",
+                "abuse",
+                "access",
+                "accident"
+            ]
+        },
+        "noun_horror": {
+            "count": 105,
+            "samples": [
+                "apparition",
+                "banshee",
+                "bats",
+                "blood",
+                "bogeyman"
+            ]
+        },
+        "noun_landscape": {
+            "count": 59,
+            "samples": [
+                "archipelago",
+                "atoll",
+                "beach",
+                "bluff",
+                "bog"
+            ]
+        },
+        "noun_romance": {
+            "count": 37,
+            "samples": [
+                "affection",
+                "appreciation",
+                "attraction",
+                "belief",
+                "care"
+            ]
+        },
+        "noun_scifi": {
+            "count": 106,
+            "samples": [
+                "alien",
+                "android",
+                "antimatter",
+                "artifact",
+                "artificial intelligence"
+            ]
+        },
+        "nsfw_bdsm": {
+            "count": 56,
+            "samples": [
+                "ball gag",
+                "bit gag",
+                "blindfold",
+                "bondage outfit",
+                "bound arms"
+            ]
+        },
+        "nsfw_bdsm_type": {
+            "count": 80,
+            "samples": [
+                "age play",
+                "age regression",
+                "anal play",
+                "ass play",
+                "ballbusting"
+            ]
+        },
+        "nsfw_bra": {
+            "count": 69,
+            "samples": [
+                "active bra",
+                "adhesive bra",
+                "athletic bra",
+                "backless bra",
+                "balconette bra"
+            ]
+        },
+        "nsfw_breastsize": {
+            "count": 6,
+            "samples": [
+                "flat chest",
+                "gigantic breasts",
+                "huge breasts",
+                "large breasts",
+                "medium breasts"
+            ]
+        },
+        "nsfw_clothing_state": {
+            "count": 12,
+            "samples": [
+                "clothes down",
+                "clothing aside",
+                "open clothes",
+                "revealing clothes",
+                "see through"
+            ]
+        },
+        "nsfw_corset": {
+            "count": 16,
+            "samples": [
+                "bridal corset",
+                "burlesque corset",
+                "corset dress",
+                "couture corset",
+                "fashion corset"
+            ]
+        },
+        "nsfw_cumplay": {
+            "count": 31,
+            "samples": [
+                "autofacial",
+                "bukkake",
+                "cum",
+                "cum bath",
+                "cum in ass"
+            ]
+        },
+        "nsfw_expression": {
+            "count": 9,
+            "samples": [
+                "afterglow",
+                "ahegao",
+                "aroused",
+                "fucked silly",
+                "in heat"
+            ]
+        },
+        "nsfw_fetish": {
+            "count": 54,
+            "samples": [
+                "assertive female",
+                "ball busting",
+                "bdsm",
+                "body writing",
+                "bondage"
+            ]
+        },
+        "nsfw_gag": {
+            "count": 23,
+            "samples": [
+                "ball gag",
+                "bit gag",
+                "cleave gag",
+                "forniphilic gag",
+                "head harness gag"
+            ]
+        },
+        "nsfw_lingerie": {
+            "count": 43,
+            "samples": [
+                "babydoll",
+                "basque",
+                "bodice",
+                "body shaper",
+                "bodystocking"
+            ]
+        },
+        "nsfw_lingerie_state": {
+            "count": 18,
+            "samples": [
+                "exposed cleavage",
+                "exposed lingerie",
+                "lace revealing",
+                "loose bra straps",
+                "open cup bra"
+            ]
+        },
+        "nsfw_panties": {
+            "count": 30,
+            "samples": [
+                "bikini",
+                "boyshort",
+                "brief",
+                "cheeky panties",
+                "control top"
+            ]
+        },
+        "nsfw_position": {
+            "count": 24,
+            "samples": [
+                "69",
+                "boy on top",
+                "boy on top anvil position",
+                "boy on top folded knees to chest legs over head legs up",
+                "boy on top full nelson"
+            ]
+        },
+        "nsfw_publicity": {
+            "count": 17,
+            "samples": [
+                "caught",
+                "cheating",
+                "clothed sex",
+                "cuckolding",
+                "exhibitionism"
+            ]
+        },
+        "nsfw_sex_act": {
+            "count": 104,
+            "samples": [
+                "anal",
+                "anal fingering",
+                "anal fisting",
+                "anal object insertion",
+                "anilingus"
+            ]
+        },
+        "nsfw_sex_position": {
+            "count": 23,
+            "samples": [
+                "69",
+                "amazon position",
+                "anvil position",
+                "bent over",
+                "boy on top"
+            ]
+        },
+        "nsfw_sex_toy": {
+            "count": 40,
+            "samples": [
+                "anal beads",
+                "anal tail",
+                "aneros",
+                "artificial vagina",
+                "breast pump"
+            ]
+        },
+        "nsfw_subreddit": {
+            "count": 41,
+            "samples": [
+                "18 19",
+                "adorableporn",
+                "altgonewild",
+                "amateur",
+                "asiansgonewild"
+            ]
+        },
+        "nsfw_tags": {
+            "count": 6,
+            "samples": [
+                "erotic",
+                "explicit",
+                "intimate",
+                "lewd",
+                "nude"
+            ]
+        },
+        "occupation": {
+            "count": 136,
+            "samples": [
+                "able bodied seaman",
+                "activist",
+                "aerospace engineer",
+                "air force intelligence",
+                "air force security forces"
+            ]
+        },
+        "oil_painting": {
+            "count": 17,
+            "samples": [
+                "baroque oil painting",
+                "cubism oil painting",
+                "expressionism oil painting",
+                "fauvism oil painting",
+                "hyperrealism oil painting"
+            ]
+        },
+        "outfit_logic": {
+            "count": 2,
+            "samples": [
+                "clothed bundle",
+                "naked bundle"
+            ]
+        },
+        "photo_angle": {
+            "count": 96,
+            "samples": [
+                "back left quarter view elevated shot close up",
+                "back left quarter view elevated shot medium shot",
+                "back left quarter view elevated shot wide shot",
+                "back left quarter view eye level shot close up",
+                "back left quarter view eye level shot medium shot"
+            ]
+        },
+        "photo_angle_view": {
+            "count": 4,
+            "samples": [
+                "ass showing",
+                "back pose",
+                "front pose",
+                "nude"
+            ]
+        },
+        "photo_styles_common": {
+            "count": 50,
+            "samples": [
+                "16mm documentary verite handheld shake natural available light washed out contrast grainy texture raw unfiltered reality",
+                "1920s silent cinema vintage black and white soft focus edges sepia tint slight flicker classic hollywood portrait",
+                "1950s ektachrome slide cool blue tones medium contrast mid century americana classic vintage vacation snapshot",
+                "1980s kodachrome vibrant saturated reds blues sharp clarity national geographic travel vintage slide film aesthetic",
+                "bleach bypass high contrast desaturated colors silver retention gritty cinematic war photographer raw intensity"
+            ]
+        },
+        "photo_styles_general": {
+            "count": 55,
+            "samples": [
+                "1970s 35mm film faded vintage colors warm amber tones soft contrast heavy film grain light leaks retro nostalgic vibe",
+                "35mm film photography soft faded colors distinct film grain warm tonal ranges lens flare nostalgic analog feel",
+                "85mm prime lens at f18 shallow depth of field creamy bokeh background sharp eye focus golden hour lighting flattering skin tones",
+                "anamorphic lens 2391 cinemascope aspect ratio horizontal lens flares teal and orange color grading cinematic depth filmic motion blur",
+                "black and white street photography tri x 400 high contrast gritty grain deep shadows harsh sunlight documentary style decisive moment"
+            ]
+        },
+        "photo_styles_special": {
+            "count": 35,
+            "samples": [
+                "acrylic reverse print modern glossy face mount vibrant color contemporary gallery museum quality display",
+                "albumen print warm sepia tones soft detail 19th century paper texture antique botanical historical soft focus",
+                "autochrome lumiere early color screen plate pointillist color dots soft pastels 1900s france dreamy vintage color",
+                "black light uv photography fluorescent glowing colors neon psychedelic 1960s concert poster radiant otherworldly",
+                "bromoil process oily pigment transfer soft painterly grain artistic brushstroke texture 1920s pictorialism"
+            ]
+        },
+        "photo_term": {
+            "count": 37,
+            "samples": [
+                "asymmetry",
+                "balance",
+                "bokeh",
+                "converging lines",
+                "depth of field"
+            ]
+        },
+        "photographic_style": {
+            "count": 5,
+            "samples": [
+                "analog film photography kodachrome",
+                "cinematic portraiture arri alexa",
+                "dark academia aesthetic moody",
+                "hyperrealistic nature photography detailed",
+                "pre raphaelite painting style romantic"
+            ]
+        },
+        "photoshoot_type": {
+            "count": 24,
+            "samples": [
+                "abstract",
+                "action",
+                "artistic",
+                "beauty",
+                "boudoir"
+            ]
+        },
+        "physique_vibes": {
+            "count": 8,
+            "samples": [
+                "elegant and slender high fashion build",
+                "fitness model physique lean and sculpted",
+                "healthy and balanced athletic build",
+                "lush and voluptuous proportions",
+                "natural and unretouched human form"
+            ]
+        },
+        "place": {
+            "count": 5,
+            "samples": [
+                "athenaeum greenhouse",
+                "glasshouse structure",
+                "orangerie",
+                "tropical botanical garden",
+                "victorian conservatory"
+            ]
+        },
+        "places": {
+            "count": 5,
+            "samples": [
+                "the alleys of chefchaouen",
+                "the hills of tuscany",
+                "the ruins of ancient greece",
+                "the streets of santorini",
+                "the villas of amalfi"
+            ]
+        },
+        "planet": {
+            "count": 27,
+            "samples": [
+                "asteroid",
+                "brown dwarf",
+                "carbon planet",
+                "desert planet",
+                "dwarf planet"
+            ]
+        },
+        "plant_palette": {
+            "count": 5,
+            "samples": [
+                "dark orchid clusters",
+                "deep burgundy lilies",
+                "emerald jungle foliage",
+                "tropical monstera leaves",
+                "vibrant philodendron"
+            ]
+        },
+        "plant_type": {
+            "count": 5,
+            "samples": [
+                "bougainvillea",
+                "dried wildflowers",
+                "lavender",
+                "olive branch",
+                "succulents"
+            ]
+        },
+        "plants": {
+            "count": 7,
+            "samples": [
+                "ancient oak",
+                "bamboo forest",
+                "bonsai",
+                "cactus",
+                "cherry blossom"
+            ]
+        },
+        "pop_culture": {
+            "count": 173,
+            "samples": [
+                "3do interactive multiplayer",
+                "a clockwork orange 1971",
+                "adventure time",
+                "agent 007",
+                "ahh real monsters"
+            ]
+        },
+        "pop_location": {
+            "count": 72,
+            "samples": [
+                "amalfi coast italy",
+                "amsterdam netherlands",
+                "angkor wat cambodia",
+                "antarctica",
+                "bali indonesia"
+            ]
+        },
+        "portrait_type": {
+            "count": 25,
+            "samples": [
+                "3 4 shot",
+                "against a wall",
+                "arms crossed",
+                "close up",
+                "environmental portrait"
+            ]
+        },
+        "positional_anchoring": {
+            "count": 8,
+            "samples": [
+                "anchored at the bottom left corner area",
+                "anchored in the top right corner area",
+                "centered at the bottom anchored horizontally",
+                "centered at the top perfectly balanced on the vertical axis",
+                "placed dead center radiating outwards"
+            ]
+        },
+        "poster_sizes_ratios": {
+            "count": 5,
+            "samples": [
+                "1024x1024 resolution square 11 ratio symmetrical square composition",
+                "1264x848 resolution landscape 32 ratio widescreen horizontal layout",
+                "1376x768 resolution desktop horizontal 169 ratio banner poster configuration",
+                "768x1376 resolution mobile portrait 916 ratio mobile screen poster size",
+                "848x1264 resolution vertical 23 ratio suitable for vertical print dimensions"
+            ]
+        },
+        "poster_style": {
+            "count": 10,
+            "samples": [
+                "art deco geometric travel poster style",
+                "brutalist raw typography poster style",
+                "corporate tech infographic poster style",
+                "cyberpunk neo tokyo street poster style",
+                "mid century modern editorial poster style"
+            ]
+        },
+        "public_act": {
+            "count": 17,
+            "samples": [
+                "caught",
+                "cheating",
+                "clothed sex",
+                "cuckolding",
+                "exhibitionism"
+            ]
+        },
+        "punk": {
+            "count": 85,
+            "samples": [
+                "acidpunk",
+                "americanpunk",
+                "angelpunk",
+                "armorpunk",
+                "atompunk"
+            ]
+        },
+        "purse": {
+            "count": 54,
+            "samples": [
+                "backpack",
+                "baguette bag",
+                "beacon bag",
+                "bowling bag",
+                "box bag"
+            ]
+        },
+        "quantity": {
+            "count": 18,
+            "samples": [
+                "1",
+                "10",
+                "100",
+                "1000",
+                "2"
+            ]
+        },
+        "race": {
+            "count": 53,
+            "samples": [
+                "afghan",
+                "african",
+                "arab",
+                "assamese",
+                "bengali"
+            ]
+        },
+        "regional_layout_division": {
+            "count": 5,
+            "samples": [
+                "magazine style interleaved layout full width header image section breaking into asymmetric vertical text columns terminating in a full width solid dark base footer bar",
+                "multi tier regional layout with 15 top title zone 40 upper core data visualization 30 middle comparison block and 15 bottom footnote attribution",
+                "radial infographic framework dominant core center visual focus area with 6 thin outward radiating pointer callout regions",
+                "top down structured infographic layout bounded rectangular content sections with clean gutters",
+                "two column split layout wide left column occupying two thirds space for primary graphs narrow right column occupying one third for vertical data stack summary"
+            ]
+        },
+        "religions": {
+            "count": 8,
+            "samples": [
+                "buddhism",
+                "christianity",
+                "hinduism",
+                "islam",
+                "judaism"
+            ]
+        },
+        "religious_places": {
+            "count": 7,
+            "samples": [
+                "ancient temple",
+                "golden pagoda",
+                "gothic cathedral",
+                "grand mosque",
+                "mountain monastery"
+            ]
+        },
+        "render": {
+            "count": 18,
+            "samples": [
+                "3d rendering",
+                "cell shading render",
+                "cgi render",
+                "flat design render",
+                "gouache render"
+            ]
+        },
+        "render_engine": {
+            "count": 11,
+            "samples": [
+                "arnold",
+                "corona renderer",
+                "cycles",
+                "eevee",
+                "fstorm render"
+            ]
+        },
+        "rivers": {
+            "count": 6,
+            "samples": [
+                "amazon",
+                "danube",
+                "ganges",
+                "mississippi",
+                "nile"
+            ]
+        },
+        "robot": {
+            "count": 15,
+            "samples": [
+                "android",
+                "automaton",
+                "autonomous robot",
+                "bipedal robot",
+                "cleaning robot"
+            ]
+        },
+        "rpg_item": {
+            "count": 732,
+            "samples": [
+                "a page of the bible",
+                "a page of the unholy book",
+                "a small piece of wrath",
+                "abyss fall",
+                "abyssal pickaxe"
+            ]
+        },
+        "safety_signage": {
+            "count": 5,
+            "samples": [
+                "biohazard symbols",
+                "emergency exit lighting",
+                "hazard yellow",
+                "high visibility stripes",
+                "osha compliant colors"
+            ]
+        },
+        "scenario": {
+            "count": 115,
+            "samples": [
+                "a city is hit by a deadly virus outbreak",
+                "a city plagued by a deadly virus outbreak",
+                "a city trapped in eternal darkness",
+                "a city under a spell of eternal winter",
+                "a city under attack by giant robots"
+            ]
+        },
+        "scenario2": {
+            "count": 62,
+            "samples": [
+                "a calm and peaceful place with green grasses a blue sky and lots of beauty everywhere",
+                "a city abandoned for years",
+                "a cramped space with a lot of rubble and little space to move around",
+                "a dark and evil land",
+                "a dry place like an empty desert"
+            ]
+        },
+        "scenario_fantasy": {
+            "count": 50,
+            "samples": [
+                "a cursed prince must marry a monster",
+                "a cursed prince must save his kingdom",
+                "a cursed prince seeks redemption",
+                "a cursed prince turns into a beast",
+                "a cursed princess seeks true love"
+            ]
+        },
+        "scenario_romance": {
+            "count": 89,
+            "samples": [
+                "a bittersweet goodbye at an airport",
+                "a couples first dance at their wedding",
+                "a couples first dance in a grand ballroom",
+                "a couples first kiss in the snow",
+                "a heartwarming reunion after years apart"
+            ]
+        },
+        "scenario_scifi": {
+            "count": 82,
+            "samples": [
+                "a colony on a distant planet",
+                "a colony on a distant planet struggles for survival",
+                "a cyberpunk world where corporations rule",
+                "a cyborg police force fights against crime",
+                "a cyborg uprising against humanity"
+            ]
+        },
+        "scifi": {
+            "count": 41,
+            "samples": [
+                "alternate history",
+                "cyberpunk",
+                "dieselpunk",
+                "feminist science fiction",
+                "hard science fiction"
+            ]
+        },
+        "sculpture": {
+            "count": 37,
+            "samples": [
+                "assembled",
+                "bas relief",
+                "bust",
+                "bustrine",
+                "busts"
+            ]
+        },
+        "seasons": {
+            "count": 4,
+            "samples": [
+                "blooming spring",
+                "cinematic winter",
+                "golden autumn",
+                "scorched summer"
+            ]
+        },
+        "select_color": {
+            "count": 9,
+            "samples": [
+                "blue",
+                "golden",
+                "green",
+                "olive green",
+                "orange"
+            ]
+        },
+        "setting": {
+            "count": 17,
+            "samples": [
+                "ancient greece",
+                "ancient rome",
+                "atompunk",
+                "aztec",
+                "biopunk"
+            ]
+        },
+        "setting_architecture": {
+            "count": 5,
+            "samples": [
+                "parisian bistro",
+                "spanish colonial market",
+                "tuscan villa",
+                "venetian palazzo",
+                "victorian tenement"
+            ]
+        },
+        "sfw_attire": {
+            "count": 5,
+            "samples": [
+                "conservative modest dress",
+                "industrial work overalls",
+                "medical scrubs",
+                "professional business suit",
+                "smart casual attire"
+            ]
+        },
+        "ship": {
+            "count": 31,
+            "samples": [
+                "airship",
+                "ambulance ship",
+                "cargo ship",
+                "carrier",
+                "colony ship"
+            ]
+        },
+        "site": {
+            "count": 17,
+            "samples": [
+                "national gallery of art highlights",
+                "trending on 500px",
+                "trending on artstation",
+                "trending on artsy",
+                "trending on behance"
+            ]
+        },
+        "size_bg": {
+            "count": 5,
+            "samples": [
+                "219",
+                "329",
+                "imax",
+                "panorama",
+                "ultrawide"
+            ]
+        },
+        "size_blog": {
+            "count": 4,
+            "samples": [
+                "1610",
+                "169",
+                "43",
+                "landscape"
+            ]
+        },
+        "size_hierarchy_weight": {
+            "count": 4,
+            "samples": [
+                "heavy visual weight primary elements medium weight auxiliary graphs lightweight dashed border indicators",
+                "large eye catching prominent title level medium clearly readable body level small fine annotation level",
+                "stark typographic hierarchy oversized display characters paired with subtle low contrast fine print labels",
+                "ultra bold high weight focal headings contrasted against microscopic light gray metadata details"
+            ]
+        },
+        "skin_color_all": {
+            "count": 26,
+            "samples": [
+                "alabaster",
+                "beige",
+                "black",
+                "bronze",
+                "brown"
+            ]
+        },
+        "skin_texture_details": {
+            "count": 6,
+            "samples": [
+                "dewy hydrated skin reflecting light",
+                "highly detailed skin pores and realistic texture",
+                "natural skin imperfections including faint moles and freckles",
+                "smooth polished skin with an iridescent sheen",
+                "soft velvety skin with a subtle glow"
+            ]
+        },
+        "sports": {
+            "count": 7,
+            "samples": [
+                "basketball",
+                "cricket",
+                "football",
+                "formula 1",
+                "kabaddi"
+            ]
+        },
+        "still_life": {
+            "count": 120,
+            "samples": [
+                "apples",
+                "art supplies",
+                "baskets",
+                "bell peppers",
+                "bookends"
+            ]
+        },
+        "style_and_texture_descriptors": {
+            "count": 55,
+            "samples": [
+                "acoustic sound dampening thick felt",
+                "adaptive fastening systems magnets velcro",
+                "anti microbial performance knit",
+                "bohemian free spirited embroidery",
+                "breathing organic cotton gauze"
+            ]
+        },
+        "subject": {
+            "count": 153,
+            "samples": [
+                "a artist painting in a studio",
+                "a astronaut orbiting the earth in a spaceship",
+                "a ballerina performing on stage",
+                "a biker doing a wheelie on the street",
+                "a bull rider hanging on for dear life"
+            ]
+        },
+        "subject_action": {
+            "count": 5,
+            "samples": [
+                "adjusting a headset",
+                "drinking coffee while monitoring code",
+                "looking over shoulder with concern",
+                "pointing at a critical error on screen",
+                "typing intently"
+            ]
+        },
+        "subject_fantasy": {
+            "count": 46,
+            "samples": [
+                "a angel fighting against evil forces",
+                "a angelic warrior fighting against darkness",
+                "a banshee wailing in the night",
+                "a centaur galloping through a meadow",
+                "a dark sorcerer summoning ancient demons"
+            ]
+        },
+        "subject_horror": {
+            "count": 39,
+            "samples": [
+                "a cursed archeological discovery unleashing an ancient evil",
+                "a cursed object bringing bad luck to its owner",
+                "a cursed object bringing death to those who possess it",
+                "a cursed object bringing misfortune to its owner",
+                "a cursed painting bringing bad luck to its owner"
+            ]
+        },
+        "subject_quality": {
+            "count": 7,
+            "samples": [
+                "8k raw photo",
+                "8k resolution",
+                "cinematic",
+                "highly detailed",
+                "masterpiece"
+            ]
+        },
+        "subject_romance": {
+            "count": 68,
+            "samples": [
+                "a couple dancing in a grand ballroom",
+                "a couple dealing with the aftermath of infidelity",
+                "a couple falling in love after being set up by friends",
+                "a couple falling in love at a music festival",
+                "a couple falling in love at a sporting event"
+            ]
+        },
+        "subject_scifi": {
+            "count": 99,
+            "samples": [
+                "a ai sentience becoming self aware and question its existence",
+                "a alien diplomat negotiating with earths leaders",
+                "a biomechanical organism on a rampage",
+                "a civilization living in a massive artificial world",
+                "a colony of humans living on a distant moon"
+            ]
+        },
+        "superhero": {
+            "count": 144,
+            "samples": [
+                "ant man",
+                "aquaman",
+                "astro boy",
+                "banshee",
+                "batgirl"
+            ]
+        },
+        "supermodel": {
+            "count": 38,
+            "samples": [
+                "adriana lima",
+                "alex weber",
+                "ashley graham",
+                "bar refaeli",
+                "bella hadid"
+            ]
+        },
+        "technique": {
+            "count": 33,
+            "samples": [
+                "anaglyph",
+                "backlighting",
+                "blending",
+                "bloom",
+                "bokeh"
+            ]
+        },
+        "text_style_constraints": {
+            "count": 5,
+            "samples": [
+                "artistic brush calligraphy script headings for display titles",
+                "brutalist high contrast slab serif typography with thick outer strokes",
+                "clean modern sans serif font sharp and crisp geometric letterforms single language lines",
+                "high tech minimalist typography futuristic thin block font structures",
+                "traditional serif font style elegant business typefaces strict tracking and kerning"
+            ]
+        },
+        "texture": {
+            "count": 6,
+            "samples": [
+                "grainy film",
+                "liquid chrome",
+                "polished metal",
+                "rugged",
+                "smooth marble"
+            ]
+        },
+        "time_of_day": {
+            "count": 22,
+            "samples": [
+                "blue hour",
+                "dawn",
+                "day",
+                "dusk",
+                "dusk blue hour"
+            ]
+        },
+        "title_placement": {
+            "count": 8,
+            "samples": [
+                "bottom anchored heavy title placement",
+                "central prominent overlay text container",
+                "left aligned vertical title spine placement",
+                "oversized background wrapped text layout",
+                "staggered split title typographic alignment"
+            ]
+        },
+        "train": {
+            "count": 41,
+            "samples": [
+                "acela express",
+                "amtrak",
+                "bullet train",
+                "cable car",
+                "cog railway"
+            ]
+        },
+        "transportation": {
+            "count": 2,
+            "samples": [
+                "cars",
+                "heavy transport"
+            ]
+        },
+        "tree": {
+            "count": 75,
+            "samples": [
+                "acacia",
+                "alder",
+                "apple",
+                "arborvitae",
+                "ash"
+            ]
+        },
+        "tribe": {
+            "count": 42,
+            "samples": [
+                "aboriginal australians",
+                "andamanese",
+                "aymara",
+                "baka",
+                "bantu"
+            ]
+        },
+        "trippy": {
+            "count": 70,
+            "samples": [
+                "abstract fractals",
+                "astral",
+                "c4d abstract fractals",
+                "celestial",
+                "chroma"
+            ]
+        },
+        "typography_weight": {
+            "count": 7,
+            "samples": [
+                "brutalist slab serif heavily kerned text",
+                "clean minimalist grotesque typeface",
+                "elegant high contrast display serif typography",
+                "futuristic condensed tech fonts",
+                "hand drawn organic script headings"
+            ]
+        },
+        "underwater": {
+            "count": 58,
+            "samples": [
+                "ammonite",
+                "anemone",
+                "anglerfish",
+                "barnacle",
+                "black mamba"
+            ]
+        },
+        "vegetation": {
+            "count": 5,
+            "samples": [
+                "dark evergreen boughs",
+                "desert succulents",
+                "ferns and moss",
+                "vines and creepers",
+                "wild lavender bushes"
+            ]
+        },
+        "vfx_effects": {
+            "count": 6,
+            "samples": [
+                "chromatic aberration",
+                "double exposure",
+                "glitch art",
+                "lens flare",
+                "motion blur"
+            ]
+        },
+        "waist_descriptions": {
+            "count": 5,
+            "samples": [
+                "defined abdominal area with subtle tone",
+                "extremely narrow snatched waist",
+                "graceful curve at the waist",
+                "slim and tapered midsection",
+                "soft natural waistline"
+            ]
+        },
+        "water": {
+            "count": 51,
+            "samples": [
+                "aral sea",
+                "arctic ocean",
+                "atlantic ocean",
+                "baltic sea",
+                "beaufort sea"
+            ]
+        },
+        "watercolor": {
+            "count": 17,
+            "samples": [
+                "aquarelle watercolor",
+                "color wash watercolor",
+                "dry brush watercolor",
+                "flowing watercolor",
+                "gouache watercolor"
+            ]
+        },
+        "wave": {
+            "count": 24,
+            "samples": [
+                "chillwave",
+                "cloud rap",
+                "cyberpunk",
+                "darkwave",
+                "dream pop"
+            ]
+        },
+        "weather": {
+            "count": 11,
+            "samples": [
+                "clear sky",
+                "dust storm",
+                "golden hour mist",
+                "heat haze",
+                "heatwave"
+            ]
+        },
+        "wild_flowers": {
+            "count": 6,
+            "samples": [
+                "bluebells",
+                "daisies",
+                "dandelions",
+                "maple blossoms",
+                "poppies"
+            ]
+        },
+        "wildcard_flora": {
+            "count": 5,
+            "samples": [
+                "dark thorny jungle blooms",
+                "exotic bioluminescent pitcher plants",
+                "luminous glowing moss",
+                "sparse wind swept lavender bushes",
+                "vibrant tropical orchids"
+            ]
+        },
+        "wildcard_setting": {
+            "count": 5,
+            "samples": [
+                "ancient forgotten temple ruins",
+                "coastal cliff edge",
+                "desert oasis at dusk",
+                "mist shrouded alpine meadow",
+                "volcanic caldera"
+            ]
+        },
+        "woman_ass_size": {
+            "count": 2,
+            "samples": [
+                "medium",
+                "medium plus"
+            ]
+        },
+        "woman_attire_all": {
+            "count": 10,
+            "samples": [
+                "bikini",
+                "cheongsam",
+                "hanbok",
+                "hijab",
+                "kimono"
+            ]
+        },
+        "woman_blouses_style": {
+            "count": 40,
+            "samples": [
+                "asymmetrical drape blouse",
+                "bohemian embroidered blouse",
+                "button down essential blouse",
+                "button down satin blouse",
+                "cold shoulder detail blouse"
+            ]
+        },
+        "woman_body_privacy": {
+            "count": 8,
+            "samples": [
+                "artistic nude",
+                "completely naked",
+                "disrobing",
+                "fully clothed",
+                "implied nudity"
+            ]
+        },
+        "woman_body_silhouettes": {
+            "count": 5,
+            "samples": [
+                "a apple silhouette with prominent hips narrow waist and defined shoulders",
+                "a balanced combination of curves often seen as graceful and symmetrical in shape",
+                "a classic perfect silhouette with a defined chest and narrow waist",
+                "balanced proportions with a slight curve around the waist hips and thighs",
+                "narrow waist full hips and rounded hips with a soft curve around the midsection"
+            ]
+        },
+        "woman_body_silhouettes_all": {
+            "count": 13,
+            "samples": [
+                "a balanced combination of curves graceful and symmetrical in shape",
+                "athletic",
+                "athletic and toned physique with defined muscle definition",
+                "classic hourglass figure with a narrow waist and proportionally wide hips",
+                "curvy"
+            ]
+        },
+        "woman_bodysuites_style": {
+            "count": 40,
+            "samples": [
+                "asymmetrical one shoulder bodysuit",
+                "compression active bodysuit",
+                "compression long sleeve bodysuit",
+                "compression tank bodysuit",
+                "compression v neck bodysuit"
+            ]
+        },
+        "woman_boob_tapes_style": {
+            "count": 40,
+            "samples": [
+                "boob tape applicator tool",
+                "boob tape applied for deep plunge support",
+                "boob tape for open back",
+                "boob tape kit with covers",
+                "breathable cotton boob tape"
+            ]
+        },
+        "woman_bra_style": {
+            "count": 40,
+            "samples": [
+                "adhesive backless bra",
+                "adhesive silicone stick on bra",
+                "balconette bra for subtle lift",
+                "bandeau wireless bra",
+                "bralette top worn as outerwear"
+            ]
+        },
+        "woman_breast_size": {
+            "count": 2,
+            "samples": [
+                "medium",
+                "medium plus"
+            ]
+        },
+        "woman_bust": {
+            "count": 5,
+            "samples": [
+                "full and ample bust",
+                "medium sized well proportioned breasts",
+                "modest and natural chest",
+                "slender and firm bust line",
+                "voluptuous chest with a defined silhouette"
+            ]
+        },
+        "woman_bustiers_style": {
+            "count": 40,
+            "samples": [
+                "artisan embroidered bustier",
+                "artisan embroidered satin bustier",
+                "cropped bustier with puff sleeves",
+                "cropped bustier with wide straps",
+                "denim bustier top"
+            ]
+        },
+        "woman_clothing": {
+            "count": 55,
+            "samples": [
+                "activewear",
+                "beachwear",
+                "beaded",
+                "business attire",
+                "cashmere"
+            ]
+        },
+        "woman_corset_style": {
+            "count": 56,
+            "samples": [
+                "asymmetrical hem corset",
+                "corset belt accessory",
+                "daring cut out detail corset",
+                "daring strappy harness corset",
+                "daringly sheer mesh overbust corset"
+            ]
+        },
+        "woman_costume": {
+            "count": 95,
+            "samples": [
+                "camo costume",
+                "candy costume",
+                "captain costume",
+                "carnival costume",
+                "cat costume"
+            ]
+        },
+        "woman_cultural_construction_patterns": {
+            "count": 15,
+            "samples": [
+                "andean indigenous inspired embroidery construction",
+                "artisan block print pattern work",
+                "authentic hand dyed indigo resist pattern",
+                "complex west african kente weave pattern",
+                "eastern european folk embroidery pattern work"
+            ]
+        },
+        "woman_denim_style": {
+            "count": 40,
+            "samples": [
+                "acid wash denim",
+                "acid wash high rise denim",
+                "acid wash skinny denim",
+                "barrel leg distressed denim",
+                "black denim flared fit"
+            ]
+        },
+        "woman_dress_backstyle": {
+            "count": 40,
+            "samples": [
+                "corset back evening dress",
+                "corset back lace up closure",
+                "corset back ribbon lace up",
+                "cowl back cocktail dress",
+                "cowl back draped fabric cascading"
+            ]
+        },
+        "woman_dress_collars_style": {
+            "count": 40,
+            "samples": [
+                "ascot tie collar",
+                "band collar simple stand up",
+                "bertha collar large cape like",
+                "button down collar casual",
+                "cadet collar athletic style"
+            ]
+        },
+        "woman_dress_color_select": {
+            "count": 19,
+            "samples": [
+                "blue",
+                "burnt sienna",
+                "emerald green",
+                "gold leaf",
+                "golden"
+            ]
+        },
+        "woman_dress_hand": {
+            "count": 40,
+            "samples": [
+                "angel sleeve long and wide",
+                "balloon sleeve knit fabric",
+                "balloon sleeves gathered at wrist",
+                "batwing sleeve very wide dolman",
+                "bell sleeve short length"
+            ]
+        },
+        "woman_dress_necklines_style": {
+            "count": 40,
+            "samples": [
+                "boat neck elegant horizontal line",
+                "boat neck horizontal line",
+                "cold shoulder open shoulder cutouts",
+                "cowl neck silk drape",
+                "cowl neckline soft drapes"
+            ]
+        },
+        "woman_dress_style_all": {
+            "count": 11,
+            "samples": [
+                "",
+                "bikini",
+                "cheongsam",
+                "hanbok",
+                "hijab"
+            ]
+        },
+        "woman_dress_suit": {
+            "count": 57,
+            "samples": [
+                "blazer dress",
+                "business suit",
+                "cocktail suit",
+                "cotton suit",
+                "evening suit"
+            ]
+        },
+        "woman_dresses": {
+            "count": 56,
+            "samples": [
+                "a line cocktail dress",
+                "a line maxi dress",
+                "a line midi dress",
+                "asymmetrical drape dress",
+                "asymmetrical drape midi dress"
+            ]
+        },
+        "woman_earring": {
+            "count": 48,
+            "samples": [
+                "ball earrings",
+                "bar earrings",
+                "boho earrings",
+                "chandelier earrings",
+                "clip on earrings"
+            ]
+        },
+        "woman_ethnic_dress_select": {
+            "count": 6,
+            "samples": [
+                "cheongsam",
+                "hanbok",
+                "hijab",
+                "kimono",
+                "sari"
+            ]
+        },
+        "woman_ethnicity_all": {
+            "count": 30,
+            "samples": [
+                "african",
+                "african diaspora",
+                "american",
+                "arabic",
+                "asian"
+            ]
+        },
+        "woman_ethnicity_select": {
+            "count": 20,
+            "samples": [
+                "african",
+                "american",
+                "arabic",
+                "asian",
+                "black"
+            ]
+        },
+        "woman_eye_color_cinematics": {
+            "count": 26,
+            "samples": [
+                "amber",
+                "amethyst",
+                "aquamarine",
+                "black",
+                "blue"
+            ]
+        },
+        "woman_eye_color_natural": {
+            "count": 6,
+            "samples": [
+                "amber",
+                "blue tint",
+                "brown",
+                "green tint",
+                "grey"
+            ]
+        },
+        "woman_eye_color_rare": {
+            "count": 9,
+            "samples": [
+                "black",
+                "blue tint",
+                "emerald green",
+                "green tint",
+                "hazel"
+            ]
+        },
+        "woman_eye_color_select": {
+            "count": 5,
+            "samples": [
+                "black",
+                "brown",
+                "grey",
+                "hazel",
+                "natual"
+            ]
+        },
+        "woman_eyeliner_all": {
+            "count": 10,
+            "samples": [
+                "cat eye liner",
+                "colored eyeliner",
+                "cream eyeliner",
+                "dramatic eyeliner",
+                "glitter eyeliner"
+            ]
+        },
+        "woman_face_shapes": {
+            "count": 5,
+            "samples": [
+                "diamond",
+                "heart shaped",
+                "oval",
+                "round",
+                "square jawed"
+            ]
+        },
+        "woman_facial_features": {
+            "count": 4,
+            "samples": [
+                "cheekbones",
+                "cheekbones and distinctive",
+                "distinctive",
+                "jawline"
+            ]
+        },
+        "woman_full_body_wear": {
+            "count": 40,
+            "samples": [
+                "adaptive wrap around dress",
+                "bodycon knit mini dress",
+                "bohemian embroidered romper",
+                "cargo utility dress",
+                "cowl neck satin gown"
+            ]
+        },
+        "woman_garment_closure_systems": {
+            "count": 15,
+            "samples": [
+                "adaptive magnetic snap button",
+                "asymmetrical button closure",
+                "belt loop details with utility belt",
+                "button placket with mother of pearl buttons",
+                "corset style back lacing"
+            ]
+        },
+        "woman_garment_context_behavior": {
+            "count": 15,
+            "samples": [
+                "active sports moisture wicking technology",
+                "airport ready secure pocket utility jacket",
+                "beach to street quick dry transition wear",
+                "commute proof crease resistant fabric",
+                "creative studio reinforced apron pockets"
+            ]
+        },
+        "woman_garment_hem_finishes": {
+            "count": 15,
+            "samples": [
+                "asymmetrical high low hem",
+                "banded waistband detail",
+                "elasticated jogger style cuff",
+                "fringed bohemian hem",
+                "invisible blind hem stitch"
+            ]
+        },
+        "woman_garment_seaming_structure": {
+            "count": 15,
+            "samples": [
+                "asymmetrical draped seaming",
+                "darted bust for tailored fit",
+                "ergonomic knee articulation seams",
+                "flat lock seams to minimize irritation",
+                "paneled construction for stretch"
+            ]
+        },
+        "woman_garment_surface_details": {
+            "count": 15,
+            "samples": [
+                "breathing organic cotton gauze",
+                "cool hand feel linen weave",
+                "crinkled plissé texture",
+                "delicate chantilly lace overlays",
+                "haptic textured seersucker"
+            ]
+        },
+        "woman_garment_utility_pockets": {
+            "count": 15,
+            "samples": [
+                "airport ready secure passport pocket",
+                "cargo pockets with bellows volume",
+                "decorative zipper detail pocket",
+                "double entry utility pocket",
+                "hidden discrete zipper pocket"
+            ]
+        },
+        "woman_hair_accessory": {
+            "count": 31,
+            "samples": [
+                "barrette",
+                "bobby pin",
+                "bun cover",
+                "butterfly clip",
+                "chignon"
+            ]
+        },
+        "woman_hair_braid": {
+            "count": 48,
+            "samples": [
+                "box braids",
+                "cornrows",
+                "crown braid",
+                "dutch braid",
+                "dutch fishtail braid"
+            ]
+        },
+        "woman_hair_color": {
+            "count": 22,
+            "samples": [
+                "ash blonde",
+                "ash brown",
+                "auburn",
+                "black",
+                "blonde"
+            ]
+        },
+        "woman_hair_length": {
+            "count": 7,
+            "samples": [
+                "absurdly long hair",
+                "big hair",
+                "long hair",
+                "medium hair",
+                "short hair"
+            ]
+        },
+        "woman_hair_style_general": {
+            "count": 71,
+            "samples": [
+                "afro",
+                "beach waves",
+                "blowout",
+                "bob",
+                "box braids"
+            ]
+        },
+        "woman_hair_style_short": {
+            "count": 16,
+            "samples": [
+                "bob cut",
+                "boy cut",
+                "buzz cut",
+                "chin length bob",
+                "cropped pixie"
+            ]
+        },
+        "woman_hairstyle_all_anime_and_tropes": {
+            "count": 68,
+            "samples": [
+                "asymmetrical heavy scene layers",
+                "bitch curls",
+                "blunt bangs with twin pigtails and hair cuffs",
+                "boho waves with mini accent braids",
+                "choppy short cut with thin accent braid"
+            ]
+        },
+        "woman_hairstyle_all_braids": {
+            "count": 15,
+            "samples": [
+                "braided low bun",
+                "crown braid tuck",
+                "double braided pigtails",
+                "double dutch pigtails",
+                "dutch braid crown updo"
+            ]
+        },
+        "woman_hairstyle_all_buns_and_knots": {
+            "count": 11,
+            "samples": [
+                "double space buns",
+                "half up messy twist",
+                "half up pigtails with bows",
+                "half up top knot",
+                "half up twist"
+            ]
+        },
+        "woman_hairstyle_all_ponytails_and_pigtails": {
+            "count": 26,
+            "samples": [
+                "classic double pigtails",
+                "classic pigtails",
+                "high braided ponytail",
+                "high curly side ponytail",
+                "high loose pigtails"
+            ]
+        },
+        "woman_hairstyle_all_shortcuts": {
+            "count": 25,
+            "samples": [
+                "angled wispy bob",
+                "blonde pixie cut",
+                "blunt bang and bob",
+                "blunt bob",
+                "classic a line bob"
+            ]
+        },
+        "woman_hairstyle_all_waves_and_flowing": {
+            "count": 22,
+            "samples": [
+                "blunt cut straight hair",
+                "comb over cut",
+                "easy waves",
+                "face framing curls",
+                "fringe bangs with long layers"
+            ]
+        },
+        "woman_hairstyle_anime_and_pop_culture": {
+            "count": 23,
+            "samples": [
+                "asymmetrical heavy scene layers",
+                "blunt bangs with twin pigtails and hair cuffs",
+                "boho waves with mini accent braids",
+                "choppy short cut with thin accent braid",
+                "cornrow braided ponytail with loose tendrils"
+            ]
+        },
+        "woman_hairstyle_braids_double_and_multiple": {
+            "count": 5,
+            "samples": [
+                "cornrow braided ponytail with loose tendrils",
+                "double braided pigtails",
+                "double dutch pigtails",
+                "double fishtail braids",
+                "two simple back braids"
+            ]
+        },
+        "woman_hairstyle_braids_single_and_crown": {
+            "count": 7,
+            "samples": [
+                "crown braid tuck",
+                "dutch braid crown updo",
+                "intricate back braid",
+                "intricate french braid updo",
+                "long central braid"
+            ]
+        },
+        "woman_hairstyle_buns_half_up": {
+            "count": 5,
+            "samples": [
+                "half up messy bun",
+                "half up messy twist",
+                "half up top knot",
+                "half up twist",
+                "spiky high half up updo"
+            ]
+        },
+        "woman_hairstyle_buns_multiple_and_puffs": {
+            "count": 6,
+            "samples": [
+                "double space buns",
+                "double textured space buns",
+                "high curly puff",
+                "high micro braided bun",
+                "high neat afro puff"
+            ]
+        },
+        "woman_hairstyle_buns_single": {
+            "count": 6,
+            "samples": [
+                "high messy bun",
+                "high messy bun with loose strands",
+                "high neat ballerina bun",
+                "high twisted bun",
+                "low messy bun"
+            ]
+        },
+        "woman_hairstyle_character_tropes": {
+            "count": 45,
+            "samples": [
+                "bitch curls",
+                "her best friend",
+                "shoujou protag starter kit",
+                "the action girl",
+                "the ballroom episode"
+            ]
+        },
+        "woman_hairstyle_classic_layers": {
+            "count": 7,
+            "samples": [
+                "chandelier layers",
+                "fine layered strands",
+                "fringe bangs with long layers",
+                "invisible layers",
+                "layered shoulder bob"
+            ]
+        },
+        "woman_hairstyle_crimped_and_textured": {
+            "count": 4,
+            "samples": [
+                "long crimped waves",
+                "long textured crimped hair",
+                "long tight crimped hair",
+                "voluminous long crimped hair"
+            ]
+        },
+        "woman_hairstyle_flowing_straight": {
+            "count": 5,
+            "samples": [
+                "long and sleek",
+                "long pin straight hair",
+                "mid length straight cut",
+                "straight blunt cut",
+                "ultra long straight hair"
+            ]
+        },
+        "woman_hairstyle_layered_and_shag_cuts": {
+            "count": 6,
+            "samples": [
+                "asymmetrical heavy scene layers",
+                "choppy spiky wolf cut",
+                "long shag",
+                "messy spiky shag with long face framing layers",
+                "the shag"
+            ]
+        },
+        "woman_hairstyle_pigtails_and_twintails": {
+            "count": 7,
+            "samples": [
+                "classic double pigtails",
+                "high curly pigtails",
+                "high loose pigtails",
+                "high pigtail braids",
+                "high pigtails"
+            ]
+        },
+        "woman_hairstyle_ponytails_high": {
+            "count": 6,
+            "samples": [
+                "high braided ponytail",
+                "high ponytail",
+                "high ponytail with blunt straight bangs",
+                "high smooth ponytail",
+                "sleek high ponytail"
+            ]
+        },
+        "woman_hairstyle_ponytails_mid_and_low": {
+            "count": 7,
+            "samples": [
+                "low side ponytail",
+                "low wavy ponytail",
+                "low wrapped ponytail",
+                "mid height sleek ponytail",
+                "side swept high ponytail"
+            ]
+        },
+        "woman_hairstyle_popular_hime_and_anime": {
+            "count": 3,
+            "samples": [
+                "hime cut ponytail with blunt bangs",
+                "the hime cut",
+                "the nana osaki"
+            ]
+        },
+        "woman_hairstyle_popular_messy_buns_and_glam": {
+            "count": 4,
+            "samples": [
+                "high messy bun",
+                "high messy bun with loose strands",
+                "long voluminous curls with bow",
+                "voluminous long crimped hair"
+            ]
+        },
+        "woman_hairstyle_popular_sharp_bobs": {
+            "count": 4,
+            "samples": [
+                "blunt bang and bob",
+                "blunt bob",
+                "short blunt bob",
+                "sleek curved bob"
+            ]
+        },
+        "woman_hairstyle_popular_space_buns_and_knots": {
+            "count": 4,
+            "samples": [
+                "double space buns",
+                "double textured space buns",
+                "half up messy twist",
+                "half up top knot"
+            ]
+        },
+        "woman_hairstyle_popular_wolfcut_and_shags": {
+            "count": 6,
+            "samples": [
+                "asymmetrical heavy scene layers",
+                "choppy spiky wolf cut",
+                "long shag",
+                "messy spiky shag with long face framing layers",
+                "the shag"
+            ]
+        },
+        "woman_hairstyle_short_cuts_classic": {
+            "count": 7,
+            "samples": [
+                "blunt bob",
+                "curved pageboy bob",
+                "short blunt bob",
+                "short classic bob",
+                "short rounded bob"
+            ]
+        },
+        "woman_hairstyle_short_cuts_edgy_and_undercuts": {
+            "count": 4,
+            "samples": [
+                "buzzed side",
+                "short undercut with design",
+                "tapered cut",
+                "undercut side design"
+            ]
+        },
+        "woman_hairstyle_short_cuts_pixies_and_crops": {
+            "count": 7,
+            "samples": [
+                "blonde pixie cut",
+                "short crop",
+                "short textured crop",
+                "short textured pixie",
+                "sleek short cut"
+            ]
+        },
+        "woman_hairstyle_short_cuts_retro_and_textured": {
+            "count": 3,
+            "samples": [
+                "copper graduated layered cut",
+                "silver finger waves",
+                "voluminous wavy bob"
+            ]
+        },
+        "woman_hairstyle_waves_and_acclimated_curls": {
+            "count": 8,
+            "samples": [
+                "easy waves",
+                "face framing curls",
+                "inverted shaped curls",
+                "long dense curls",
+                "long loose ringlets"
+            ]
+        },
+        "woman_hairstyle_wispy_and_angled": {
+            "count": 3,
+            "samples": [
+                "angled wispy bob",
+                "comb over cut",
+                "mohawk layered cut"
+            ]
+        },
+        "woman_headwear": {
+            "count": 24,
+            "samples": [
+                "beanie",
+                "beret",
+                "bobble hat",
+                "bonnet",
+                "cap"
+            ]
+        },
+        "woman_high_heels": {
+            "count": 60,
+            "samples": [
+                "ankle strap heels",
+                "block heels",
+                "buckle heels",
+                "cage heels",
+                "chunky heels"
+            ]
+        },
+        "woman_hip_and_glute": {
+            "count": 5,
+            "samples": [
+                "firm and toned posterior",
+                "prominent curvaceous glutes",
+                "rounded and full hips",
+                "softly rounded hips with a natural flare",
+                "wide feminine pelvic structure"
+            ]
+        },
+        "woman_lingerie_style": {
+            "count": 55,
+            "samples": [
+                "boudoir lace slip dress",
+                "boudoir style slip and robe set",
+                "cage style lingerie set",
+                "camisole and hipster set",
+                "camisole and short pajamas"
+            ]
+        },
+        "woman_lipstick": {
+            "count": 8,
+            "samples": [
+                "cream lipstick",
+                "gloss lipstick",
+                "matte lipstick",
+                "metallic lipstick",
+                "satin lipstick"
+            ]
+        },
+        "woman_lipstick_shade": {
+            "count": 34,
+            "samples": [
+                "beige",
+                "berry",
+                "black",
+                "brown",
+                "burgundy"
+            ]
+        },
+        "woman_lipstick_shade_select": {
+            "count": 3,
+            "samples": [
+                "brown",
+                "light beige",
+                "red"
+            ]
+        },
+        "woman_lower_body_wear": {
+            "count": 57,
+            "samples": [
+                "adaptive trousers with side openings",
+                "biker shorts with matte finish",
+                "body contouring bandage skirt",
+                "bootcut activewear pants",
+                "capri length leggings"
+            ]
+        },
+        "woman_makeup": {
+            "count": 21,
+            "samples": [
+                "blush",
+                "bronzer",
+                "brow pencil",
+                "brow powder",
+                "concealer"
+            ]
+        },
+        "woman_neckline_style": {
+            "count": 55,
+            "samples": [
+                "boat neck horizontal line",
+                "cold shoulder",
+                "cowl neck draped fabric",
+                "cowl neck satin top",
+                "cowl neck silk camisole"
+            ]
+        },
+        "woman_neckwear": {
+            "count": 39,
+            "samples": [
+                "amulet",
+                "animal collar",
+                "ascot",
+                "bolo tie",
+                "bowtie"
+            ]
+        },
+        "woman_of_adult_age": {
+            "count": 5,
+            "samples": [
+                "middle aged woman",
+                "old woman",
+                "older woman",
+                "woman",
+                "young woman"
+            ]
+        },
+        "woman_panties_style": {
+            "count": 40,
+            "samples": [
+                "activewear boyshort brief",
+                "activewear mesh panel brief",
+                "activewear moisture wicking brief",
+                "boyshort lace trim",
+                "boyshort seamless style"
+            ]
+        },
+        "woman_pants_style": {
+            "count": 55,
+            "samples": [
+                "bootcut activewear pants",
+                "bootcut yoga pants",
+                "cargo jogger pants",
+                "cargo utility pants",
+                "compression activewear leggings"
+            ]
+        },
+        "woman_pose": {
+            "count": 26,
+            "samples": [
+                "contrapposto",
+                "kneeling",
+                "kneeling on one knee",
+                "lying",
+                "lying crossed legs"
+            ]
+        },
+        "woman_pose_unique": {
+            "count": 18,
+            "samples": [
+                "ass showing",
+                "back",
+                "back with ass visible",
+                "back with breast visible",
+                "face shot"
+            ]
+        },
+        "woman_rompers_style": {
+            "count": 40,
+            "samples": [
+                "activewear compression romper",
+                "black denim romper",
+                "denim romper artisan wash",
+                "distressed denim romper",
+                "fluid silk romper with wrap front"
+            ]
+        },
+        "woman_sensory_adaptive_features": {
+            "count": 15,
+            "samples": [
+                "accessible openings for medical devices",
+                "flat lock seams to minimize irritation",
+                "flexible adaptive waistbands for fluctuating bodies",
+                "high visibility reflective thread accents",
+                "low friction sleeve linings"
+            ]
+        },
+        "woman_shapwear_style": {
+            "count": 40,
+            "samples": [
+                "booty lift shaper short",
+                "booty lift shaping panty",
+                "booty lifting shaping brief",
+                "breathable mesh panel shapewear",
+                "compression garment shapewear"
+            ]
+        },
+        "woman_shirts_style": {
+            "count": 40,
+            "samples": [
+                "boyfriend fit flannel",
+                "boyfriend white shirt",
+                "casual button down flannel",
+                "casual denim button down",
+                "chambray button down shirt"
+            ]
+        },
+        "woman_shorts": {
+            "count": 40,
+            "samples": [
+                "a line structured shorts",
+                "athletic bike shorts",
+                "athletic gym shorts",
+                "bermuda shorts",
+                "biker shorts matte finish"
+            ]
+        },
+        "woman_skin_tone": {
+            "count": 20,
+            "samples": [
+                "almond",
+                "amber",
+                "brown",
+                "buff",
+                "chestnut"
+            ]
+        },
+        "woman_skirts_by_cut": {
+            "count": 40,
+            "samples": [
+                "a line cut",
+                "asymmetrical hem pleated skirt",
+                "asymmetrical wrap skirt",
+                "bias cut satin skirt",
+                "button front midi skirt"
+            ]
+        },
+        "woman_skirts_by_length": {
+            "count": 40,
+            "samples": [
+                "above knee casual length",
+                "above the ankle tailored skirt",
+                "above the knee length",
+                "above the knee tailored length",
+                "ankle length"
+            ]
+        },
+        "woman_sweaters_style": {
+            "count": 40,
+            "samples": [
+                "asymmetrical drape knit",
+                "balloon sleeve detail",
+                "cable knit poncho",
+                "cardigan with large buttons",
+                "cashmere shawl sweater"
+            ]
+        },
+        "woman_swimwear": {
+            "count": 36,
+            "samples": [
+                "bathrobe",
+                "bikesuit",
+                "bikini",
+                "bodystocking",
+                "bodysuit"
+            ]
+        },
+        "woman_t_shirts_style": {
+            "count": 40,
+            "samples": [
+                "boat neck t shirt",
+                "classic crewneck cotton t shirt",
+                "classic fit v neck t shirt",
+                "classic white cotton t shirt",
+                "crewneck modal t shirt"
+            ]
+        },
+        "woman_tanks_style": {
+            "count": 40,
+            "samples": [
+                "boat neck tank",
+                "cropped active tank",
+                "cropped active tank top",
+                "cropped muscle tank",
+                "cropped ribbed knit tank"
+            ]
+        },
+        "woman_upper_body_wear": {
+            "count": 56,
+            "samples": [
+                "activewear tank with moisture wicking technology",
+                "asymmetrical draped silk blouse",
+                "bohemian embroidered tunic",
+                "cashmere oversized turtleneck sweater",
+                "corset inspired bustier top"
+            ]
+        },
+        "work_environments": {
+            "count": 5,
+            "samples": [
+                "active construction site",
+                "gritty industrial warehouse",
+                "high tech command center",
+                "modern glass office",
+                "sterile sterile lab"
+            ]
+        },
+        "work_equipment": {
+            "count": 6,
+            "samples": [
+                "diagnostic tablet",
+                "legal dossiers",
+                "microscope",
+                "multimonitor workstation",
+                "safety hardhat and vest"
+            ]
+        },
+        "young_age_select": {
+            "count": 3,
+            "samples": [
+                "little girl",
+                "teenage girl",
+                "young girl"
+            ]
+        }
+    },
+    "_metadata": {
+        "version": "1.20",
+        "last_updated": "2026-08-31 06:23:00",
+        "Node": "Ash_Super_Prompt, Ash_Simple_Prompt, Ash_Sequencer",
+        "transaction_summary": [
+            "[31-Aug-2026 06:23] [CREATED] Category 'art_style_select' with 5 items. Skipped 0 duplicates.",
+            "[31-Aug-2026 06:23] [CREATED] Category 'time_of_day_select' with 5 items. Skipped 0 duplicates.",
+            "[31-Aug-2026 06:23] [CREATED] Category 'setting_type_select' with 5 items. Skipped 0 duplicates.",
+            "[31-Aug-2026 06:23] [CREATED] Category 'fabric_select' with 5 items. Skipped 0 duplicates.",
+            "[30-Aug-2026 19:03] [APPENDED] Added 5 items to category 'setting'. Skipped 0 duplicates.",
+            "[30-Aug-2026 19:03] [CREATED] Category 'clothing_material' with 5 items. Skipped 0 duplicates.",
+            "[30-Aug-2026 19:03] [CREATED] Category 'hair_color' with 5 items. Skipped 0 duplicates.",
+            "[30-Aug-2026 17:15] [CREATED] Category 'background_element_select' with 5 items. Skipped 0 duplicates.",
+            "[30-Aug-2026 15:41] [CREATED] Category 'color_palette_select' with 5 items. Skipped 0 duplicates.",
+            "[30-Aug-2026 15:41] [CREATED] Category 'background_style_select' with 5 items. Skipped 0 duplicates.",
+            "[30-Aug-2026 15:41] [CREATED] Category 'lighting_setup_select' with 5 items. Skipped 0 duplicates.",
+            "[30-Aug-2026 15:41] [CREATED] Category 'artistic_medium_select' with 5 items. Skipped 0 duplicates.",
+            "[30-Aug-2026 15:41] [CREATED] Category 'fabric_material_select' with 5 items. Skipped 0 duplicates.",
+            "[30-Aug-2026 15:41] [APPENDED] Added 31 items to category '3d_term'. Skipped 4 duplicates.",
+            "[27-Aug-2026 18:06] [APPENDED] Added 5 items to category 'setting'. Skipped 0 duplicates.",
+            "[27-Aug-2026 18:06] [CREATED] Category 'makeup_select' with 5 items. Skipped 0 duplicates.",
+            "[27-Aug-2026 18:06] [CREATED] Category 'body_type' with 5 items. Skipped 0 duplicates.",
+            "[27-Aug-2026 15:19] [CREATED] Category 'natural_elements' with 5 items. Skipped 0 duplicates.",
+            "[27-Aug-2026 15:19] [CREATED] Category 'artistic_medium' with 5 items. Skipped 0 duplicates.",
+            "[27-Aug-2026 15:19] [APPENDED] Added 5 items to category 'mood'. Skipped 0 duplicates."
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "default_name": "Unnamed_Ash_Workflow",
+    "debug_mode": true,
+    "version": "001.00.01",
+    "organization": "Skyscreen LLC",
+    "utf8_validation": "✓",
+    "fallback_behavior": "use_default_on_null",
+    "logging_level": "VERBOSE"
+}

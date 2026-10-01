@@ -1,0 +1,17 @@
+{
+    "vault_dir_name": "ash_vault",
+    "db_filename": "ash_prompt_vault.db",
+    "max_rating": 10,
+    "max_query_limit": 100,
+    "tag_categories": [
+        {"name": "style", "description": "Visual style and aesthetic"},
+        {"name": "subject", "description": "Subject matter and content"},
+        {"name": "technique", "description": "Technical approach and method"},
+        {"name": "quality", "description": "Quality assessment tags"},
+        {"name": "general", "description": "General purpose tags"}
+    ],
+    "default_tag_category": "general",
+	"auto_reindex_after_delete": true,
+	"thumbnail_max_px": 256,
+    "api_route_prefix": "/ash_vault"
+}

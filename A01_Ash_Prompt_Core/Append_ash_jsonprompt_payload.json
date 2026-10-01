@@ -1,0 +1,19 @@
+{
+  "new_opportunities": {
+    "blueprint_product": ["Mechanical Watch", "Electric Sedan", "Smart Sunglasses"],
+    "blueprint_title": ["ANNUAL REPORT", "PRODUCT LAUNCH", "CYBER HUD v2.0"]
+  },
+  "blueprints_to_append": {
+    "cyberpunk_ui_hud_blueprint": {
+      "canvas_meta": {
+        "dimensions": "1376x768",
+        "aspect_ratio": "16:9",
+        "target_medium": "Widescreen HUD Display"
+      },
+      "elements_and_data": {
+        "active_target": "__blueprint_subject__",
+        "hud_warning_text": "CRITICAL__cyber_mood__"
+      }
+    }
+  }
+}
