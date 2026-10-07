@@ -91,3 +91,9 @@ $RECYCLE.BIN/
 *.lnk
 docs/confidential
 A01_Ash_Prompt_Core/ash_vault_export.json
+ash_vault_export*.json
+*.ashbak
+*.ash_tmp
+ash_ip_leak_report.txt
+ash_main_guard_report.txt
+tracked_files.txt

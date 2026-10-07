@@ -1,6 +1,6 @@
 {
-    "llm_server": "http://192.168.0.65:11434",
-    "text_model": "huihui_ai/qwen3.5-abliterated:9b",
+    "llm_server": "http://127.0.0.1:11434",
+    "text_model": "gemma4:e4b",
     "vision_model": "gemma4:e4b",
     "timeout": 120,
     "default_keep_alive": 5,
