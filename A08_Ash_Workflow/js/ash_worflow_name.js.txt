@@ -1,0 +1,80 @@
+/* ==============================================================================
+[ASHTONISH UNIVERSE - FRONTEND JS]
+File: js/worflowname.js
+Date: Thursday 16-Apr-2026
+Version: 002.00.09
+Logic Improved:
+1. [REGEX UPDATED]: Integrated the these character /'^\*!/ and replace with  '' pattern to refine the strip logic.
+2. [PERSISTENCE]: Prevents "Missing Name!" from overwriting valid data.
+3. [HEADER SAFETY]: Properly escaped comment blocks to prevent syntax errors.
+4. [Zero-Deletion]: Maintained UTF-8 and performance-first queue hooks.
+============================================================================== */
+
+//import { app } from "../../scripts/app.js";
+// import { api } from "../../scripts/api.js";
+import { app } from "/scripts/app.js";
+import { api } from "/scripts/api.js";
+
+(function() {
+    const EXTENSION_NAME = "Ashtonish.WorkflowTracker";
+
+    function getCurrentWorkflowName() {
+        try {
+            let name = "Missing Name!";
+            if (app.workflowName) {
+                name = app.workflowName;
+            } else if (app.graph?.extra?.name) {
+                name = app.graph.extra.name;
+            } else {
+                const title = document.title || "";
+                if (title.endsWith(" - ComfyUI")) {
+                    name = title.slice(0, -10).trim();
+                }
+            }
+            
+            // CLEANUP: Using refined remove these character /'^\*!/ and replace with  '' pattern to break the standard strip logic
+            return name.replace(/'^\*!/, '').trim() || "Missing Name!";
+        } catch (e) { 
+            console.warn("[Ash Tracker] Identity retrieval skipped:", e); 
+            return "Missing Name!";
+        }
+    }
+
+    function installQueuePromptHook() {
+        const originalQueuePrompt = api.queuePrompt;
+        api.queuePrompt = async function(number, postData) {
+            const workflowName = getCurrentWorkflowName();
+            
+            const nodes = app.graph.findNodesByType("AshWorkflowNameNode");
+            nodes.forEach(n => {
+                const widget = n.widgets.find(w => w.name === "manual_workflow_string");
+                if (widget) {
+                    // STICKY LOGIC: Only update if we have a valid name or empty widget
+                    const isNewNameValid = (workflowName !== "Missing Name!");
+                    const isCurrentEmpty = (!widget.value || widget.value === "Missing Name!");
+
+                    if (isNewNameValid || isCurrentEmpty) {
+                        widget.value = workflowName;
+                    }
+                }
+            });
+
+            return originalQueuePrompt.apply(api, arguments);
+        };
+    }
+
+    app.registerExtension({
+        name: EXTENSION_NAME,
+        setup: function() {
+            installQueuePromptHook();
+            console.log("🚀 [Ashtonish Universe] Workflow Tracker v002.00.08 Installed");
+        }
+    });
+})();
+
+/* ==============================================================================
+[ASHTONISH UNIVERSE - FRONTEND JS]
+File: js/worflowname.js
+Date: Thursday 16-Apr-2026
+Version: 002.00.09
+*/

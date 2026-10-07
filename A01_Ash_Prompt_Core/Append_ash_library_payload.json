@@ -1,0 +1,18 @@
+{
+  "library_to_append": {
+    "creative_poster_and_graphics": [
+      "% __poster_style__, __composition_planning__, featuring a central subject of __subject__, with __title_placement__ utilizing __typography_weight__, color scheme driven by __color_palette_poster__, __graphic_elements__ details, super clean layout, crisp details, 8k resolution %",
+      "% High-impact commercial graphic design poster, __composition_planning__, __title_placement__, text reads clearly with crisp rendering, utilizing __typography_weight__, stylized with __poster_style__, textured by __graphic_elements__, professional print layout %",
+      "% Structured informational poster, __infographic_data_types__, using __composition_planning__ structure, clean __typography_weight__ headers, high-fidelity data icons using __graphic_elements__, coordinated in a __color_palette_poster__, balanced layout with distinct header and footer zones %",
+      "% Minimalist advertisement layout, __poster_style__, featuring a sleek __robot__ positioned off-center, __title_placement__, high contrast, __color_palette_poster__, clean vector background elements, ultra-sharp edge definition %",
+      "% Avant-garde editorial cover, __composition_planning__, prominent __title_placement__, displaying a fusion of __subject__ and __graphic_elements__, executed in __poster_style__, high-end vector art rendering style %"
+    ],
+    "infographic_and_layout_templates": [
+      "Professional infographic design, __color_palette_strict__, __layout_style_accents__. A large prominent title reading \"REPORT\" displayed at the __positional_anchoring__. Below, an __grid_system_alignment__ managing a __data_visualization_types__, formatted using __regional_layout_division__. Individual text components use __text_style_constraints__ with strict __size_hierarchy_weight__. Clean lines, ample white space, __poster_sizes_ratios__.",
+      "Data visualization poster, __color_palette_strict__, __poster_sizes_ratios__. Structured via __regional_layout_division__. Features a prominent __data_visualization_types__ positioned at the __positional_anchoring__. Titles are rendered in \"HEADING\" format using __text_style_constraints__ with balanced __size_hierarchy_weight__. Styled with __layout_style_accents__, zero overlapping artifacts, clean vector finish.",
+      "Corporate analysis presentation page, white background, __layout_style_accents__. Organized with a __grid_system_alignment__ divided into distinct regions via __regional_layout_division__. The focal zone contains a __data_visualization_types__ anchored at the __positional_anchoring__. Clear text labels read \"DATA-01\" and \"DATA-02\" wrapped in strict __size_hierarchy_weight__, utilizing __text_style_constraints__, __poster_sizes_ratios__.",
+      "Commercial infographic roadmap, __poster_sizes_ratios__, execution based on __regional_layout_division__. Central visualization layer shows a __data_visualization_types__ bounded by an __grid_system_alignment__. Visual elements use __color_palette_strict__, text elements positioned at the __positional_anchoring__ using __text_style_constraints__ with crisp readability, high contrast, flat style.",
+      "High-impact marketing poster, __layout_style_accents__, matching a __poster_sizes_ratios__. Symmetrical composition arranged as __regional_layout_division__, emphasizing a central __subject__ surrounded by a __grid_system_alignment__. Key text reads \"LAUNCH\" at the __positional_anchoring__, using __text_style_constraints__ driven by __size_hierarchy_weight__ and a __color_palette_strict__."
+    ]
+  }
+}

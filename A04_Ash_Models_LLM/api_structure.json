@@ -1,0 +1,27 @@
+{
+    "openai": {
+        "base_url": "https://api.openai.com",
+        "auth_header": "Authorization",
+        "auth_prefix": "Bearer "
+    },
+    "anthropic": {
+        "base_url": "https://api.anthropic.com",
+        "auth_header": "x-api-key",
+        "auth_prefix": ""
+    },
+    "groq": {
+        "base_url": "https://api.groq.com/openai",
+        "auth_header": "Authorization",
+        "auth_prefix": "Bearer "
+    },
+    "togetherai": {
+        "base_url": "https://api.together.xyz",
+        "auth_header": "Authorization",
+        "auth_prefix": "Bearer "
+    },
+    "openrouter": {
+        "base_url": "https://openrouter.ai/api",
+        "auth_header": "Authorization",
+        "auth_prefix": "Bearer "
+    }
+}

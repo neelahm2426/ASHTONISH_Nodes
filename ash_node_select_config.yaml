@@ -1,0 +1,16 @@
+# ASHTONISH Nodes Configuration
+branding:
+  package_name: "ASHTONISH Universe"
+  organization: "Ashok Mamtora"
+
+# Suite Toggles
+A01_Ash_Prompt_Core: true
+A02_Ash_Prompt_Utils: true
+A03_Ash_Prompt_Vault: true
+A04_Ash_Models_LLM: true
+A05_Ash_Aspect_Dimensions: true
+A06_Ash_Image_Metadata: true
+A07_Ash_Batch_Processor: true
+A08_Ash_Workflow: true
+A09_Ash_Utilities: true
+A10_Ash_Image_Watermark: true

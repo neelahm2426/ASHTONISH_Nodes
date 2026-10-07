@@ -1,0 +1,12 @@
+{
+  "default_url": "https://raw.githubusercontent.com/your-repo/options.json",
+  "local_wildcard_base_registry": "ash_wildcard_base_registry.json",
+  "local_wildcard_full_database": "ash_wildcard_full_database.json",
+  "local_wildcard_preview_samples": "ash_wildcard_preview_samples.json",
+  "local_layout_base_registry": "ash_layout_base_registry.json",
+  "local_layout_full_structures": "ash_layout_full_structures.json",
+  "local_layout_options_matrix": "ash_layout_options_matrix.json",
+  "local_library_base_registry": "ash_library_base_registry.json",
+  "local_library_full_templates": "ash_library_full_templates.json",
+   "history_path": "prompt_history.txt"
+}

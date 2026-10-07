@@ -1,0 +1,24 @@
+{
+    "providers": [
+        {
+            "name": "OpenAI",
+            "id": "openai"
+        },
+        {
+            "name": "Anthropic",
+            "id": "anthropic"
+        },
+        {
+            "name": "Groq",
+            "id": "groq"
+        },
+        {
+            "name": "TogetherAI",
+            "id": "togetherai"
+        },
+        {
+            "name": "OpenRouter",
+            "id": "openrouter"
+        }
+    ]
+}

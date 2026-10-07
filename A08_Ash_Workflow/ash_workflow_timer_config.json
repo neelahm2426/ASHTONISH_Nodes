@@ -1,0 +1,16 @@
+{
+    "output_directory": "Ashtonish_workflow_timer_logs",
+    "filename_format": "{timestamp}_{workflow_name}",
+	"timestamp_format_filename": "%d-%b-%Y %H-%M-%S",
+    "timestamp_format_display": "%d-%b-%Y %H-%M-%S",
+    "timezone": "US/Central",
+	"csv_only_for_timer_workflows": true,
+    "save_to_file": true,
+    "print_to_console": true,
+	"debug_mode": true,
+    "performance_thresholds": {
+        "critical_seconds": 1.0,
+        "moderate_seconds": 0.1,
+        "fast_seconds": 0.01
+    }
+}

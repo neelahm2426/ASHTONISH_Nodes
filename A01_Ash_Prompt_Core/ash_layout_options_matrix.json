@@ -1,0 +1,96 @@
+{
+  "info": {
+    "version": "0.04",
+    "last_updated": "24-Jun-2026 17:26",
+    "Node": "Ash_Super_Prompt, Ash_Simple_Prompt, Ash_Sequencer",
+    "Total_categories": 18,
+    "Total_Options": 67,
+    "blueprint_ops_log": [
+      "Injected 3 blueprint choice tokens into target subcategory 'blueprint_product'",
+      "Injected 3 blueprint choice tokens into target subcategory 'blueprint_title'",
+      "Registered new layout storyboard schema entry: 'cyberpunk_ui_hud_blueprint'"
+    ]
+  },
+  "annual_data_report_blueprint": [
+    "📋 Full Blueprint Template",
+    "📐 canvas_meta | 848x1264, 2:3 Vertical Print",
+    "📐 regional_layout | Multi-tier vertical split",
+    "📐 typography_and_hierarchy | Clean sans-serif",
+    "📐 elements_and_data | Chart + title __blueprint_title__",
+    "📐 color_palette | Corporate blue-white",
+    "⚠️ negative_prompt | text errors, distortion"
+  ],
+  "blueprint_custom_fields": [
+    "__blueprint_title__",
+    "__blueprint_subject__",
+    "__blueprint_product__",
+    "__blueprint_node1__"
+  ],
+  "blueprint_product": [
+    "Electric Sedan",
+    "Mechanical Watch",
+    "Smart Sunglasses"
+  ],
+  "blueprint_render_engine": [
+    "API-Driven Prompt Blueprint Tokenizer",
+    "ComfyUI Structured Parser Node v2.0",
+    "ERNIE-Image Structural Field Interpreter",
+    "Layout-Aware JSON Serializer Pipeline"
+  ],
+  "blueprint_selection_mode": [
+    "simple_portrait",
+    "detailed_portrait",
+    "annual_data_report_blueprint",
+    "event_summit_poster_blueprint"
+  ],
+  "blueprint_title": [
+    "ANNUAL REPORT",
+    "CYBER HUD v2.0",
+    "PRODUCT LAUNCH"
+  ],
+  "detailed_portrait": [
+    "📋 Full Blueprint Template",
+    "📐 subject | __subject__ + __ethnicity__ wildcards",
+    "📐 physical_features | eyes, hair, skin, body",
+    "📐 attire | fabric, color, dress, coverage",
+    "📐 composition | camera_shot, pose, aspect",
+    "📐 environment | location, lighting",
+    "📐 quality_and_style | __ALL:__ array expansion"
+  ],
+  "event_summit_poster_blueprint": [
+    "📋 Full Blueprint Template",
+    "📐 canvas_meta | 848x1264, 2:3 Exhibition Poster",
+    "📐 regional_layout | Layered vertical composition",
+    "📐 typography_and_hierarchy | Brutalist slab-serif",
+    "📐 elements_and_data | Hero + title __blueprint_subject__",
+    "📐 color_palette | Cyberpunk neon purple-blue",
+    "⚠️ negative_prompt | oversaturated, cluttered"
+  ],
+  "product_launch_poster_blueprint": [
+    "📋 Full Blueprint Template",
+    "📐 canvas_meta | 768x1376, 9:16 Mobile Portrait",
+    "📐 regional_layout | Centered alignment, deep margins",
+    "📐 elements_and_data | Product + brand __blueprint_product__",
+    "📐 color_palette | Premium white + deep navy",
+    "⚠️ negative_prompt | distorted fonts, cramped",
+    "📐 custom | __blueprint_title__ ref"
+  ],
+  "simple_portrait": [
+    "📋 Full Blueprint Template",
+    "📐 subject | __subject__ wildcard",
+    "📐 ethnicity | __ethnicity__ wildcard",
+    "📐 environment | __environment__ wildcard",
+    "📐 lighting | __lighting__ wildcard",
+    "📐 camera | __camera__ wildcard",
+    "📐 style | __style__ wildcard"
+  ],
+  "timeline_infographic_blueprint": [
+    "📋 Full Blueprint Template",
+    "📐 canvas_meta | 1264x848, 3:2 Widescreen",
+    "📐 regional_layout | Central horizontal axis",
+    "📐 elements_and_data | Milestones __blueprint_node1__",
+    "📐 color_palette | Light gray + deep blue",
+    "⚠️ negative_prompt | low contrast, unaligned",
+    "📐 custom | __blueprint_node1__ ~ __node4__ refs"
+  ]
+}
