@@ -90,3 +90,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 docs/confidential
+A01_Ash_Prompt_Core/ash_vault_export.json
