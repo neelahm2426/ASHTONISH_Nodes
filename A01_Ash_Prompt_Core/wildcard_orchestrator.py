@@ -3,28 +3,26 @@
 # Coding language: Python 3.11+
 # Infrastructure: ComfyUI Custom Node Suite
 # Application: wildcard_orchestrator.py — standalone JSON data-pipeline CLI
+#              with pre-commit timestamped backups (.ashbak)
 # code file/component name: wildcard_orchestrator.py
 # Organization: Ashok Mamtora
-# Timestamp: Day 12-Oct-2026 21:05:00
-# Version: 1.0.2
+# Timestamp: Day 08-Oct-2026 15:50:00
+# Version: 1.0.4
 # Logic Summary:
-# - v1.0.2 FIX (found by owner source review, Rule 50): the module-level
-#   'from ash_nodes.core.ash_config import ...' cannot resolve in a plain
-#   'python wildcard_orchestrator.py' process — ash_nodes is a BOOT-TIME
-#   virtual alias registered only inside ComfyUI by the package root. The
-#   CLI crashed at the import line before the guard ever ran, so KEEP_AS_PY
-#   preserved a script that could not execute. Dual-mode import added:
-#   alias import first (in-package path, unchanged), file-path bootstrap
-#   fallback via importlib.util for standalone runs (loads A00_Ash_Core/
-#   ash_config.py directly — no package context, no A00 __init__ execution;
-#   resolves the role file normally: DEVELOPER in the private tree prints
-#   full transaction logs).
-# - stdlib imports reordered above the try block (the fallback needs os);
-#   documented replacement per Rule 2.
-# - All class logic, the three sync passes, and the __main__ guard are
-#   preserved verbatim (including process_library_sync's original extra
-#   indentation level).
-# Line Count Tracking: Total lines: 391 | Actual code lines: 280
+# - v1.0.4 FEATURE (owner request): pre-commit backups — each sync pass
+#   snapshots ONLY the files it is about to write, ONLY when the pass will
+#   actually commit (the no-op guards return before backups fire; stable
+#   runs write nothing). Backups land in <data-dir>/backups/ as
+#   <basename>_<YYYYMMDD_HHMMSS>.json.ashbak. One protocol log line per
+#   pass. Restore = copy back + strip suffix (manual, by design).
+# - v1.0.4 FOLD-IN: the v1.0.3 run-anywhere fix (never installed on disk)
+#   — __main__ resolves the config + three payloads cwd-first with
+#   script-folder fallback; missing config aborts loudly with both paths.
+# - v1.0.2 (preserved): dual-mode import — ash_nodes alias in-package,
+#   importlib file-path bootstrap standalone (role file honored).
+# - All class logic, the three sync passes, and process_library_sync's
+#   original extra indentation preserved verbatim (Rule 2).
+# Line Count Tracking: Total lines: 470 | Actual code lines: 335
 # ==============================================================================
 
 #!/usr/bin/env python3
@@ -34,6 +32,8 @@
 
 import json
 import os
+import shutil
+import sys
 from datetime import datetime
 
 # --- v1.0.2 DUAL-MODE IMPORT --------------------------------------------------
@@ -71,9 +71,41 @@ class AshUnifiedOrchestrator:
         self.config_path = config_path
         self.timestamp = datetime.now().strftime("%d-%b-%Y %H:%M")
         self.node_info = "Ash_Super_Prompt, Ash_Simple_Prompt, Ash_Sequencer"
+        # v1.0.4: backup root — next to the data files (see header note:
+        # one constant to relocate if ComfyUI's output folder is preferred).
+        self.backup_dir = os.path.join(self.base_dir, "backups")
         
         if ASH_INFO_MODE: print(f"[LOAD] Reading Configuration System: {os.path.basename(config_path)}")
         self.config = self._load_json(config_path)
+
+    # --- v1.0.4: PRE-COMMIT BACKUP -------------------------------------------
+    def _backup_targets(self, file_paths, pass_name):
+        """Snapshot the files a pass is ABOUT to overwrite, before the first
+        _save_json fires. Called only after the pass's no-op guard has
+        passed (stable runs never reach here). Timestamped .ashbak names;
+        missing source files are skipped silently (a pass may create a
+        file that did not exist — nothing to back up). Returns the count."""
+        os.makedirs(self.backup_dir, exist_ok=True)
+        stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        backed_up = 0
+        for path in file_paths:
+            if not os.path.isfile(path):
+                continue
+            base = os.path.basename(path)
+            if base.endswith(".json"):
+                stem = base[:-5]
+            else:
+                stem = base
+            backup_path = os.path.join(
+                self.backup_dir, f"{stem}_{stamp}.json.ashbak")
+            shutil.copy2(path, backup_path)
+            backed_up += 1
+        print(
+            f"[wildcard_orchestrator] action=backup_written"
+            f" | pass={pass_name} | files={backed_up}"
+            f" | dir={self.backup_dir} | stamp={stamp}"
+        )
+        return backed_up
 
     def _load_json(self, file_path):
         if os.path.exists(file_path):
@@ -185,6 +217,10 @@ class AshUnifiedOrchestrator:
             if ASH_INFO_MODE: print(f"    {os.path.basename(full_path)} remains unaltered.")
             return
 
+        # v1.0.4: snapshot the three targets BEFORE the first write.
+        self._backup_targets([full_path, base_path, preview_path],
+                              "wildcard_sync")
+
         # Step 6: Package Metrics & Output Tiered System
         version = self.get_next_version("local_prompt_category")
         metadata = {
@@ -252,6 +288,9 @@ class AshUnifiedOrchestrator:
             if not changelog:
                 if ASH_INFO_MODE: print(f"\n[=] LIBRARY STABLE: Prompt templates match current library state. Files left untouched.")
                 return
+
+            # v1.0.4: snapshot the two targets BEFORE the first write.
+            self._backup_targets([lib_path, base_path], "library_sync")
 
             # Sort keys and values alphabetically for clean versioning
             for cat in master_lib:
@@ -344,6 +383,10 @@ class AshUnifiedOrchestrator:
             if ASH_INFO_MODE: print(f"    Target layout files left untouched.")
             return
 
+        # v1.0.4: snapshot the three targets BEFORE the first write.
+        self._backup_targets([opt_path, lib_path, base_path],
+                              "blueprint_sync")
+
         # 4. Process calculations & execute storage commits
         total_cats = len(master_opts) + len(master_lib)
         total_items = sum(len(v) for v in master_opts.values()) + len(master_lib)
@@ -378,21 +421,40 @@ class AshUnifiedOrchestrator:
         if ASH_INFO_MODE: print("="*80 + "\n")
 
 if __name__ == "__main__":
-    CONFIG_FILE = "ash_sprompt_config.json"
-    
+    # v1.0.3 behavior folded in (run-from-anywhere): each data filename is
+    # resolved cwd-FIRST (the historical run-from-the-JSON-folder workflow),
+    # falling back to the SCRIPT's own folder. A missing config aborts
+    # loudly with both examined paths.
+    _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+    def _resolve_data_path(name):
+        if os.path.exists(name):
+            return name
+        return os.path.join(_SCRIPT_DIR, name)
+
+    CONFIG_FILE = _resolve_data_path("ash_sprompt_config.json")
+    if not os.path.exists(CONFIG_FILE):
+        print(
+            "[wildcard_orchestrator] action=abort | reason=config_not_found"
+            f" | looked_cwd={os.path.abspath('ash_sprompt_config.json')}"
+            f" | looked_script_dir={CONFIG_FILE}"
+            f" | hint=run_from_the_folder_containing_the_json_files"
+        )
+        sys.exit(1)
+
     engine = AshUnifiedOrchestrator(CONFIG_FILE)
     
     # 1. Run Wildcard Sync
-    engine.process_wildcard_sync("Append_ash_sprompt_payload.json")
+    engine.process_wildcard_sync(_resolve_data_path("Append_ash_sprompt_payload.json"))
     
     # 2. Run Structural Blueprint Sync
-    engine.process_blueprint_sync("Append_ash_jsonprompt_payload.json")
+    engine.process_blueprint_sync(_resolve_data_path("Append_ash_jsonprompt_payload.json"))
     
     # 3. Run Pure Prompt Library Sync (Your new file!)
-    engine.process_library_sync("Append_ash_library_payload.json")
+    engine.process_library_sync(_resolve_data_path("Append_ash_library_payload.json"))
 
 # ==============================================================================
-# DEPENDENCY DECLARATIONS (Rule 47J) — declarations are DATA, never logic.
+# DEPENDENCY DECLARATIONS (Rule 47A) — declarations are DATA, never logic.
 # ==============================================================================
 
 ASH_Dependency_Who_I_Need = [
@@ -413,15 +475,29 @@ ASH_Dependency_Who_I_Need = [
     {
         "file": "(python-stdlib)/os",
         "version": "stdlib",
-        "imports": ["path"],
-        "purpose": "Relative-to-config path resolution and the standalone bootstrap path.",
+        "imports": ["path", "makedirs"],
+        "purpose": "Relative-to-config path resolution, standalone bootstrap path, backup directory creation.",
+        "runtime": False,
+    },
+    {
+        "file": "(python-stdlib)/shutil",
+        "version": "stdlib",
+        "imports": ["copy2"],
+        "purpose": "v1.0.4 pre-commit backup copies.",
+        "runtime": False,
+    },
+    {
+        "file": "(python-stdlib)/sys",
+        "version": "stdlib",
+        "imports": ["exit"],
+        "purpose": "v1.0.3 folded-in: loud abort exit code when config is missing.",
         "runtime": False,
     },
     {
         "file": "(python-stdlib)/datetime",
         "version": "stdlib",
         "imports": ["datetime"],
-        "purpose": "Metadata timestamps on committed JSON targets.",
+        "purpose": "Metadata timestamps; backup filename stamps.",
         "runtime": False,
     },
     {
@@ -430,6 +506,13 @@ ASH_Dependency_Who_I_Need = [
         "imports": ["spec_from_file_location", "module_from_spec"],
         "purpose": "v1.0.2 fallback: loads ash_config.py directly when the ash_nodes alias is absent (plain CLI process).",
         "runtime": False,
+    },
+    {
+        "file": "ash_sprompt_config.json + Append_*.json payloads (external data)",
+        "version": "n/a — data",
+        "imports": ["read: config keys; payloads: rename/remove/append/maps"],
+        "purpose": "The transaction inputs; config also defines the target filenames resolved against its own directory.",
+        "runtime": True,
     },
 ]
 
@@ -442,23 +525,31 @@ ASH_Dependency_Who_Needs_Me = [
     },
     {
         "file": "developer data-maintenance workflow (owner)",
-        "uses": "manual CLI run from the folder holding ash_sprompt_config.json and the Append_*.json payloads (relative paths)",
-        "purpose": "Wildcard / blueprint / library JSON database updates.",
+        "uses": "manual CLI run from anywhere (v1.0.4 folds in run-anywhere resolution); backups land in <data-dir>/backups/",
+        "purpose": "Wildcard / blueprint / library JSON database updates with pre-commit safety snapshots.",
+        "status": "active",
+    },
+    {
+        "file": "ash_ip_leak_scanner.py / builders",
+        "uses": "backup files carry .ashbak (extension-invisible to both); 'backups/' folder should join scanner SKIP_DIRS awareness if it ever appears in a scanned tree",
+        "purpose": "Backup artifacts must never leak into releases or pollute audits.",
         "status": "active",
     },
 ]
 
 # ==============================================================================
 # code file/component name: wildcard_orchestrator.py
-# Version: 1.0.2 | Timestamp: Day 12-Oct-2026 21:05:00
-# Final Line Counts: Total lines: 391 | Actual code lines: 280
-# Revision Statement: v1.0.1 -> v1.0.2 — 25 lines added, 0 removed (the
-# dual-mode import block with importlib fallback and its announcement line)
-# and the import section reordered in place (stdlib imports moved above the
-# try block — documented replacement per Rule 2; the fallback needs os).
-# All class logic, the three sync passes, the __main__ guard, and
-# process_library_sync's original extra indentation are preserved verbatim.
-# In-package behavior is byte-identical; standalone goes from a guaranteed
-# ModuleNotFoundError at the import line to fully functional (role file
-# honored: DEVELOPER = full transaction logs). Git is the history of record.
+# Version: 1.0.4 | Timestamp: Day 08-Oct-2026 15:50:00
+# Final Line Counts: Total lines: 470 | Actual code lines: 335
+# Revision Statement: v1.0.2 (pasted base; v1.0.3 was never installed on
+# disk) -> v1.0.4 — 79 lines added, 0 removed (_backup_targets helper with
+# protocol logging; three per-pass backup calls placed AFTER each no-op
+# guard so stable runs write nothing; backup_dir on the instance; shutil/
+# sys imports; v1.0.3's _resolve_data_path + missing-config abort folded
+# into __main__; declarations updated) and the __main__ guard's filename
+# literals routed through the resolver (documented replacement per Rule 2).
+# All class logic, the three sync passes, and process_library_sync's
+# original extra indentation preserved verbatim. Data-file behavior
+# unchanged; new behavior limited to timestamped .ashbak snapshots in
+# backups/ on committing runs. Git is the history of record.
 # ==============================================================================
